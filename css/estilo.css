@@ -207,9 +207,10 @@ header{
   width: 100vw;
   height: 10vh;
   grid-area: header;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   background-color: #003554; 
+  
     
 } 
 
@@ -337,12 +338,12 @@ h1{
   height: 300px;
 } 
 
-/* .transform{
+.transform{
   
-  transform: rotate(10deg) translate(600px, -80px);
+  transform: rotate(10deg) translate(50px, 50px);
   
   
-} */
+} 
 
 h2{
   background-color: whitesmoke;
@@ -427,7 +428,42 @@ ul li:hover ul{
   
 } 
 
+#titulo_doble{
+  display: grid;
+  grid-template-columns: 1fr;
 
+}
+#subtitulo_doble{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+#doble{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 2px solid black;
+  padding: 2px;
+  width: 98%;
+}
+
+#titulo_triple{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+#subtitulo_triple{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+#triple{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 2px solid black;
+  padding: 2px;
+  width: 98%;
+}
 
 #titulo_servicios{
   display: grid;
@@ -554,6 +590,13 @@ ul li:hover ul{
   
   }
 
+  .transform{
+  
+    transform: rotate(10deg) translate(-20px, 50px);
+    
+    
+  } 
+
    
 }
 
@@ -599,6 +642,18 @@ ul li:hover ul{
     
   
   }
+
+  .habitacion__imagen{
+    width: 250px;
+    height: 150px;
+  } 
+
+  .transform{
+  
+    transform: rotate(10deg) translate(-20px, 50px);
+   
+    
+  } 
    
 }
 
@@ -646,6 +701,18 @@ ul li:hover ul{
 
     
   }
+
+  .habitacion__imagen{
+    width: 200px;
+    height: 100px;
+  } 
+
+  .transform{
+  
+    transform: rotate(10deg) translate(0px, 40px);
+   
+    
+  } 
     
    
 }
@@ -714,7 +781,17 @@ ul li:hover ul{
     font-size: small;
   }
 
- 
+  .habitacion__imagen{
+    width: 120px;
+    height: 100px;
+  } 
+
+  .transform{
+  
+    transform: rotate(10deg) translate(0px, 20px);
+   
+    
+  } 
 
  
   

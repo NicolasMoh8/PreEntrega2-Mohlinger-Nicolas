@@ -16,6 +16,7 @@ a:active {
   
 }
 
+
 body{
   
   width: 100vw;
@@ -232,6 +233,10 @@ li{
     
 
 } 
+li:hover{
+  background-color: rgb(167, 167, 209);
+  
+}
 
 ul li{
   display: inline-block;

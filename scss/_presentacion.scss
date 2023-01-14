@@ -1,0 +1,59 @@
+#mainPresentacion{
+    display: grid;
+    grid-area: mainpresent;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1.5fr 3fr;
+    grid-template-areas:
+    "titulo titulo" 
+    "section section";
+  
+  
+}
+
+
+.presentacion{
+    grid-area: section;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "presimg prescont";
+    justify-items: center;
+}
+
+.presentacion__imagen{
+    width: 400px;
+    height: 400px;
+    grid-area: presimg;
+}
+#presentacionImg{
+    width: 400px;
+    height: 200px;
+}
+.animacion{
+    animation-name: move;
+    animation-duration: 2s;
+} 
+@keyframes move{
+    from{
+      rotate: 0deg;
+      opacity: 0;
+  
+    }
+    to{
+      rotate: 360deg;
+      opacity: 1;
+  
+    }
+  }
+        
+.presentacion__contenido{
+    grid-area: prescont;
+    border: 2px solid black;
+    padding: 5px;
+    height: 200px;
+    width: 90%;
+
+
+
+}

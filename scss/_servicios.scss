@@ -1,0 +1,50 @@
+.servicios__imagen {
+    width: 200px;
+    height: 100px;
+} 
+p{
+    width: 90%;
+} 
+#titulo_servicios{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#subtitulo_servicios{
+    display: grid;
+    grid-template-columns: 1fr;
+} 
+#desayuno{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid black;
+    padding: 2px;
+    width: 98%;
+}
+#restaurant{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid black;
+    padding: 2px;
+    width: 98%;
+}
+#pileta{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid black;
+    padding: 2px;
+    width: 98%;
+}
+#estacionamiento{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid black;
+    padding: 2px;
+    width: 98%;
+}
+#gimnasio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid black;
+    padding: 2px;
+    width: 98%;
+}

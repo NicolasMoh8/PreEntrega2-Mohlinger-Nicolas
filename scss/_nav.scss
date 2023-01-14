@@ -1,0 +1,52 @@
+nav{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    div{
+        ul{
+            list-style: none;
+            font-size:0;  
+            color: whitesmoke; 
+            text-align: center;
+         
+            li{
+                display: inline-block;
+                width: 150px;
+                position: relative;
+                font-size: 0.75rem;
+                font-family: 'Nerko One', cursive;
+                padding: 5px;
+                margin: 10px; 
+                background-color: black;
+
+                ul{
+                    position: absolute;
+                    display: none; 
+                }
+ 
+                
+            } 
+        }
+
+
+
+    }
+    
+    div{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+}
+
+.submenu{
+    &:hover ul{
+        display: block;
+        background-color: black;
+        padding: 1px;
+        margin: 5px;
+    }
+
+}

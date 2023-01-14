@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+  
+.reseteoListas a:link,
+a:visited, a:active {
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Nerko One', cursive;
+    
+}
+body{
+    width: 100vw;
+    height: 190vh;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+     grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "header header"
+    "mainpresent mainpresent"
+    "footer footer";
+
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    grid-area: header;
+    top: 0;
+    background-color: #003554;
+    font-weight: bold; 
+
+}
+main{
+    width: 100vw;
+    height: 170vh;
+    background-color: #bfdbf7;
+    h1{
+        grid-area: titulo;
+        width: 100%;
+        height: 100px;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        background-image: linear-gradient(20deg, #051923, #056290, #069feb );
+    
+    }
+    h2{
+        background-color: whitesmoke;
+        color: black;
+        text-align: center;
+        text-decoration: underline;
+    }
+    h3{
+        background-color: #1f7a8c; 
+        color: white;
+    }
+
+}
+
+
+@import "./nav.scss";
+@import "./presentacion";
+@import "./habitaciones.scss";
+@import "./servicios";
+@import "./footer";
+
+@media (max-width: 1024px) {
+
+    body{
+      height: 235vh;
+
+      header{
+        height: 15vh;    
+      }
+      main{        
+        height: 215vh;
+        h1{
+            height: 80px;
+            font-size: 2rem;
+            padding: 15px;    
+        }
+      }
+      footer{
+        height: 5vh;
+        font-size: 1rem;
+      }
+    }
+    .presentacion__contenido{    
+      padding: 7px;
+      height: 240px;
+    }
+}
+  
+@media (max-width: 768px) {
+   
+  
+    .presentacion{
+      grid-area: section;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: 
+      "presimg"
+      "prescont";
+      justify-items: center;
+      
+     
+    }
+    #presentacionImg{
+      width: 400px;
+      height: 200px;
+    }
+    .presentacion__imagen{
+      width: 400px;
+      height: 400px;
+      grid-area: presimg;
+      
+    }
+    .presentacion__contenido{
+      padding: 20px;
+      height: 300px;
+      
+    
+    }
+  
+    .transform{
+    
+      transform: rotate(10deg) translate(-20px, 50px);
+      
+      
+    } 
+  
+     
+}
+  
+@media (max-width: 600px) {
+    body{
+        height: 240vh;
+        header{
+          height: 15vh;
+          nav{
+              div{
+                  ul{
+                      li{
+                          width: 80px;
+                          font-size: 0.65rem;
+                          margin: 10px;
+                      } 
+                  }
+              }
+          }        
+        }
+        main{          
+          height: 220vh;
+          h1{
+              font-size: 1.6rem;
+              padding: 25px;
+            }
+        }
+        footer{          
+          height: 5vh;
+          font-size: 1rem;
+        }
+    }    
+    .presentacion__contenido{
+        height: 340px;     
+    }
+    .habitacion__imagen{
+        width: 250px;
+        height: 150px;
+    } 
+    .transform{      
+        transform: rotate(10deg) translate(-20px, 50px);        
+    } 
+       
+}
+@media (max-width: 480px) {
+    body{
+        header{
+            nav{
+                div{
+                    ul{
+                        li{    
+                            width: 55px;
+                            font-size: 0.50rem;    
+                        }                        
+                    }
+                }
+            }
+        }
+        main{
+            h1{      
+                height: 50px;    
+                font-size: 1rem;     
+                padding: 15px;   
+            }
+            section div p{
+                font-size: small;                
+            }
+        }
+    }
+    #presentacionImg{
+        width: 250px;
+        height: 200px;
+    }
+    .presentacion__imagen{
+        width: 250px;
+    }
+    .habitacion__imagen{
+        width: 300px;
+        height: 200px;
+    } 
+      
+    .servicios__imagen {
+        width: 150px;
+        height: 100px;
+    }  
+    
+       
+    .habitacion__imagen{
+        width: 200px;
+        height: 100px;
+    } 
+    
+    .transform{
+      
+        transform: rotate(10deg) translate(0px, 40px);
+       
+        
+    } 
+}        
+@media (max-width: 320px){
+    body{
+        height: 230vh;
+        header{
+            height: 10vh;
+            nav{
+                div{
+                    ul{
+                        li{
+                            width: 70px;    
+                            font-size: 0.40rem;
+                            margin: 0px;    
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            height: 215vh;
+            h1{   
+                font-size: 0.8rem;
+                height: 3%;
+            }
+            h2{
+                font-size: 0.8rem;
+            }
+        }
+        footer{     
+            height: 5vh;
+            font-size: 0.5rem;
+        }
+    }
+#presentacionImg{
+    width: 200px;        
+}
+.presentacion__imagen{
+    width: 200px;            
+}
+.presentacion__contenido{        
+    padding: 10px;
+    height: 400px;
+    margin: -150px;      
+}
+#idioma{
+    display: none;
+}     
+#contacto{
+    font-size: small;
+}
+.habitacion__imagen{
+    width: 120px;
+    height: 100px;
+} 
+.transform{
+    transform: rotate(10deg) translate(0px, 20px);
+} 
+}  

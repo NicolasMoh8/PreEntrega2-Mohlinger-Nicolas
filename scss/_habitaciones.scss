@@ -1,0 +1,46 @@
+.habitacion__imagen{
+    width: 400px;
+    height: 300px;
+}
+
+.transform{
+  
+    transform: rotate(10deg) translate(50px, 50px);
+}
+
+#titulo_doble{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+}
+#subtitulo_doble{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+  
+#doble{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid black;
+    padding: 2px;
+    width: 98%;
+}
+  
+#titulo_triple{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+}
+#subtitulo_triple{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+#triple{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid black;
+    padding: 2px;
+    width: 98%;
+}

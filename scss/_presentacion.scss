@@ -1,3 +1,5 @@
+
+
 #mainPresentacion{
     display: grid;
     grid-area: mainpresent;
@@ -6,54 +8,123 @@
     grid-template-areas:
     "titulo titulo" 
     "section section";
-  
-  
-}
-
-
-.presentacion{
-    grid-area: section;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "presimg prescont";
-    justify-items: center;
-}
-
-.presentacion__imagen{
-    width: 400px;
-    height: 400px;
-    grid-area: presimg;
-}
-#presentacionImg{
-    width: 400px;
-    height: 200px;
-}
-.animacion{
-    animation-name: move;
-    animation-duration: 2s;
-} 
-@keyframes move{
-    from{
-      rotate: 0deg;
-      opacity: 0;
-  
+    .presentacion{
+        grid-area: section;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "presimg prescont";
+        justify-items: center;
+        .presentacion__imagen{
+            width: 400px;
+            height: 400px;
+            grid-area: presimg;
+            #presentacionImg{
+                width: 400px;
+                height: 200px;
+            }
+            @media (max-width: 768px){
+                #presentacionImg{
+                    width: 400px;
+                    height: 200px;
+                }
+            } 
+            @media (max-width: 320px){
+                #presentacionImg{
+                    width: 200px;        
+                }
+            }
+            @media (max-width: 480px){
+                #presentacionImg{
+                    width: 250px;
+                    height: 200px;
+                }
+            }
+            .animacion{
+                animation-name: move;
+                animation-duration: 2s;
+            } 
+            @keyframes move{
+                from{
+                  rotate: 0deg;
+                  opacity: 0;
+              
+                }
+                to{
+                  rotate: 360deg;
+                  opacity: 1;
+              
+                }
+            }
+        }
+        @media (max-width: 768px){
+            .presentacion__imagen{
+                width: 400px;
+                height: 400px;
+                grid-area: presimg;
+            }
+        }
+        @media (max-width: 480px){
+            .presentacion__imagen{
+                width: 250px;
+            }
+        }
+       
+        .presentacion__contenido{
+            grid-area: prescont;
+            border: 2px solid black;
+            padding: 5px;
+            height: 200px;
+            width: 90%;    
+        }
+       
+        @media (max-width: 1024px){
+            .presentacion__contenido{    
+                padding: 7px;
+                height: 245px;
+            }
+        } 
+        @media (max-width: 768px){
+            .presentacion__contenido{
+                padding: 15px;
+                height: 200px;
+            }
+        }
+        @media (max-width: 600px){
+            .presentacion__contenido{
+                height: 250px;     
+            }
+        }
+        @media (max-width: 320px){
+            .presentacion__contenido{        
+                padding: 10px;
+                height: 280px;
+                margin: -150px;      
+            }
+        }
+           
     }
-    to{
-      rotate: 360deg;
-      opacity: 1;
-  
-    }
-  }
+     @media (max-width: 768px) {
+         .presentacion{
+            grid-area: section;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: 
+            "presimg"
+            "prescont";
+            justify-items: center;
+            
+           
+        } 
+    } 
+}
+
+
+
+
+
+
+
         
-.presentacion__contenido{
-    grid-area: prescont;
-    border: 2px solid black;
-    padding: 5px;
-    height: 200px;
-    width: 90%;
-
-
-
-}

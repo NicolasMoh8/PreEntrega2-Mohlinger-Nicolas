@@ -20,33 +20,36 @@ nav{
                 padding: 5px;
                 margin: 10px; 
                 background-color: black;
-
+                
                 ul{
                     position: absolute;
                     display: none; 
                 }
- 
-                
-            } 
+            }
+            
+              
+            .submenu{
+                &:hover ul{
+                    display: block;
+                    background-color: black;
+                    padding: 1px;
+                    margin: 5px;
+                }
+            
+            }
         }
-
-
-
+        
     }
     
     div{
         display: flex;
         justify-content: flex-end;
-
+        
+    }
+    @media (max-width: 320px){
+        #idioma{
+            display: none;
+        }  
     }
 }
 
-.submenu{
-    &:hover ul{
-        display: block;
-        background-color: black;
-        padding: 1px;
-        margin: 5px;
-    }
-
-}

@@ -1,50 +1,151 @@
-.servicios__imagen {
-    width: 200px;
-    height: 100px;
-} 
-p{
-    width: 90%;
-} 
-#titulo_servicios{
-    display: grid;
-    grid-template-columns: 1fr;
+main{
+    #titulo_servicios{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #subtitulo_servicios{
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+    #desayuno{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid black;
+        padding: 2px;
+        width: 98%;
+        div{
+            .servicios__imagen {
+                width: 200px;
+                height: 100px;
+            }
+            @media (max-width: 480px) {  
+                .servicios__imagen {
+                    width: 150px;
+                    height: 100px;
+                }   
+            }
+        }
+        div{
+            p{
+                width: 90%;
+            } 
+
+        }
+    }
+    #restaurant{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid black;
+        padding: 2px;
+        width: 98%;
+        div{
+            .servicios__imagen {
+                width: 200px;
+                height: 100px;
+            }
+            @media (max-width: 480px) {  
+                .servicios__imagen {
+                    width: 150px;
+                    height: 100px;
+                }   
+            } 
+        }
+        div{
+            p{
+                width: 90%;
+            } 
+
+        }
+    }
+    #pileta{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid black;
+        padding: 2px;
+        width: 98%;
+        div{
+            .servicios__imagen {
+                width: 200px;
+                height: 100px;
+            } 
+            @media (max-width: 480px) {  
+                .servicios__imagen {
+                    width: 150px;
+                    height: 100px;
+                }   
+            }
+        }
+        div{
+            p{
+                width: 90%;
+            } 
+        }
+    }
+    #estacionamiento{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid black;
+        padding: 2px;
+        width: 98%;
+        div{
+            .servicios__imagen {
+                width: 200px;
+                height: 100px;
+            }
+            @media (max-width: 480px) {  
+                .servicios__imagen {
+                    width: 150px;
+                    height: 100px;
+                }   
+            }
+        }
+        div{
+            p{
+                width: 90%;
+            } 
+
+        }
+    }
+    #gimnasio{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid black;
+        padding: 2px;
+        width: 98%;
+        div{
+            .servicios__imagen {
+                width: 200px;
+                height: 100px;
+            }
+            @media (max-width: 480px) {  
+                .servicios__imagen {
+                    width: 150px;
+                    height: 100px;
+                }   
+            } 
+        }
+        div{
+            p{
+                width: 90%;
+            } 
+
+        }
+    }
 }
-#subtitulo_servicios{
-    display: grid;
-    grid-template-columns: 1fr;
-} 
-#desayuno{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid black;
-    padding: 2px;
-    width: 98%;
-}
-#restaurant{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid black;
-    padding: 2px;
-    width: 98%;
-}
-#pileta{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid black;
-    padding: 2px;
-    width: 98%;
-}
-#estacionamiento{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid black;
-    padding: 2px;
-    width: 98%;
-}
-#gimnasio{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid black;
-    padding: 2px;
-    width: 98%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,7 +8,7 @@ nav{
         ul{
             list-style: none;
             font-size:0;  
-            color: whitesmoke; 
+            color: $letras-boton; 
             text-align: center;
          
             li{
@@ -19,7 +19,7 @@ nav{
                 font-family: 'Nerko One', cursive;
                 padding: 5px;
                 margin: 10px; 
-                background-color: black;
+                background-color: $background-boton;
                 
                 ul{
                     position: absolute;
@@ -31,7 +31,7 @@ nav{
             .submenu{
                 &:hover ul{
                     display: block;
-                    background-color: black;
+                    background-color: $background-boton;
                     padding: 1px;
                     margin: 5px;
                 }

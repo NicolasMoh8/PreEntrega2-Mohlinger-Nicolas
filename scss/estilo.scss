@@ -1,3 +1,4 @@
+@import "./variables";
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 a:visited, a:active {
     list-style-type: none;
     text-decoration: none;
-    color: whitesmoke;
+    color: $letras-boton;
     font-family: 'Nerko One', cursive;   
 }
 body{
@@ -28,35 +29,35 @@ body{
         height: 10vh;
         grid-area: header;
         top: 0;
-        background-color: #003554;
+        background-color: $background-header;
         font-weight: bold; 
         
     }
     main{
         width: 100vw;
         height: 170vh;
-        background-color: #bfdbf7;
+        background-color: $background-main;
         
        
         h1{
             grid-area: titulo;
             width: 100%;
             height: 100px;
-            color: white;
+            color: $color-h1;
             font-size: 3rem;
             text-align: center;
             background-image: linear-gradient(20deg, #051923, #056290, #069feb );
             
         }
         h2{
-            background-color: whitesmoke;
-            color: black;
+            background-color: $background-h2;
+            color: $letra-h2;
             text-align: center;
             text-decoration: underline;
         }
         h3{
-            background-color: #1f7a8c; 
-            color: white;
+            background-color: $background-h3; 
+            color: $letra-h3;
         }
     }
     @media (max-width: 320px){
@@ -69,8 +70,8 @@ body{
         width: 100vw;
         height: 10vh;
         grid-area: footer;
-        background-color: black;
-        color: white;
+        background-color: $background-footer;
+        color: $letra-footer;
         font-style: italic;
         font-family: 'Times New Roman', Times, serif;
         font-size: 1.25rem;
@@ -86,10 +87,11 @@ body{
 }
 
 
-@import "./variables";
+
 @import "./nav.scss";
 @import "./presentacion";
-@import "./habitaciones.scss";
+@import "./habitaciondoble.scss";
+@import "./habitaciontriple";
 @import "./servicios";
 
 @media (max-width: 1024px) {

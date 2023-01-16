@@ -179,92 +179,92 @@ nav {
       grid-template-areas: "presimg" "prescont";
       justify-items: center; } }
 
-#titulo_doble {
+main #titulo_doble {
   display: grid;
   grid-template-columns: 1fr; }
 
-#subtitulo_doble {
+main #subtitulo_doble {
   display: grid;
   grid-template-columns: 1fr; }
 
-#doble {
+main #doble {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border: 2px solid black;
   padding: 2px;
   width: 98%; }
-  #doble .transform {
+  main #doble .transform {
     transform: rotate(10deg) translate(50px, 50px); }
-    #doble .transform .habitacion__imagen {
+    main #doble .transform .habitacion__imagen {
       width: 400px;
       height: 300px; }
     @media (max-width: 600px) {
-      #doble .transform .habitacion__imagen {
+      main #doble .transform .habitacion__imagen {
         width: 250px;
         height: 150px; } }
     @media (max-width: 480px) {
-      #doble .transform .habitacion__imagen {
+      main #doble .transform .habitacion__imagen {
         width: 200px;
         height: 100px; } }
     @media (max-width: 320px) {
-      #doble .transform .habitacion__imagen {
+      main #doble .transform .habitacion__imagen {
         width: 120px;
         height: 100px; } }
   @media (max-width: 768px) {
-    #doble .transform {
+    main #doble .transform {
       transform: rotate(10deg) translate(-20px, 50px); } }
   @media (max-width: 600px) {
-    #doble .transform {
+    main #doble .transform {
       transform: rotate(10deg) translate(-20px, 50px); } }
   @media (max-width: 480px) {
-    #doble .transform {
+    main #doble .transform {
       transform: rotate(10deg) translate(0px, 40px); } }
   @media (max-width: 320px) {
-    #doble .transform {
+    main #doble .transform {
       transform: rotate(10deg) translate(0px, 20px); } }
 
-#titulo_triple {
+main #titulo_triple {
   display: grid;
   grid-template-columns: 1fr; }
 
-#subtitulo_triple {
+main #subtitulo_triple {
   display: grid;
   grid-template-columns: 1fr; }
 
-#triple {
+main #triple {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border: 2px solid black;
   padding: 2px;
   width: 98%; }
-  #triple .transform {
+  main #triple .transform {
     transform: rotate(10deg) translate(50px, 50px); }
-    #triple .transform .habitacion__imagen {
+    main #triple .transform .habitacion__imagen {
       width: 400px;
       height: 300px; }
     @media (max-width: 600px) {
-      #triple .transform .habitacion__imagen {
+      main #triple .transform .habitacion__imagen {
         width: 250px;
         height: 150px; } }
     @media (max-width: 480px) {
-      #triple .transform .habitacion__imagen {
+      main #triple .transform .habitacion__imagen {
         width: 200px;
         height: 100px; } }
     @media (max-width: 320px) {
-      #triple .transform .habitacion__imagen {
+      main #triple .transform .habitacion__imagen {
         width: 120px;
         height: 100px; } }
   @media (max-width: 768px) {
-    #triple .transform {
+    main #triple .transform {
       transform: rotate(10deg) translate(-20px, 50px); } }
   @media (max-width: 600px) {
-    #triple .transform {
+    main #triple .transform {
       transform: rotate(10deg) translate(-20px, 50px); } }
   @media (max-width: 480px) {
-    #triple .transform {
+    main #triple .transform {
       transform: rotate(10deg) translate(0px, 40px); } }
   @media (max-width: 320px) {
-    #triple .transform {
+    main #triple .transform {
       transform: rotate(10deg) translate(0px, 20px); } }
 
 main #titulo_servicios {

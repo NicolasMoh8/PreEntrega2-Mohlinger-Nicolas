@@ -10,7 +10,7 @@ main{
     #desayuno{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        border: 2px solid black;
+        border: 2px solid $border;
         padding: 2px;
         width: 98%;
         div{
@@ -35,7 +35,7 @@ main{
     #restaurant{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        border: 2px solid black;
+        border: 2px solid $border;
         padding: 2px;
         width: 98%;
         div{
@@ -60,7 +60,7 @@ main{
     #pileta{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        border: 2px solid black;
+        border: 2px solid $border;
         padding: 2px;
         width: 98%;
         div{
@@ -84,7 +84,7 @@ main{
     #estacionamiento{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        border: 2px solid black;
+        border: 2px solid $border;
         padding: 2px;
         width: 98%;
         div{
@@ -109,7 +109,7 @@ main{
     #gimnasio{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        border: 2px solid black;
+        border: 2px solid $border;
         padding: 2px;
         width: 98%;
         div{

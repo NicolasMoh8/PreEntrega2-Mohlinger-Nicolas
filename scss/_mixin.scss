@@ -1,0 +1,6 @@
+@mixin reseteo-lista {
+    list-style-type: none;
+    text-decoration: none;
+    color: $letras-boton;
+    font-family: 'Nerko One', cursive;
+}

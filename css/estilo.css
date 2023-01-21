@@ -4,31 +4,33 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around; }
-  nav div ul {
-    list-style: none;
-    font-size: 0;
-    color: whitesmoke;
-    text-align: center; }
-    nav div ul li {
-      display: inline-block;
-      width: 150px;
-      position: relative;
-      font-size: 0.75rem;
-      font-family: 'Nerko One', cursive;
-      padding: 5px;
-      margin: 10px;
-      background-color: black; }
-      nav div ul li ul {
-        position: absolute;
-        display: none; }
-    nav div ul .submenu:hover ul {
-      display: block;
-      background-color: black;
-      padding: 1px;
-      margin: 5px; }
+  nav .logo img {
+    width: 58px;
+    height: 45px; }
   nav div {
-    display: flex;
-    justify-content: flex-end; }
+    height: 48px; }
+    nav div a:hover {
+      color: black;
+      background-color: white; }
+  nav ul, nav ol {
+    list-style: none; }
+  nav ul li a {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px 15px;
+    display: block; }
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px; }
+  nav .nav > li {
+    float: left; }
+  nav .submenu:hover ul {
+    display: block;
+    position: absolute; }
+  @media (max-width: 480px) {
+    nav #idioma {
+      display: none; } }
   @media (max-width: 320px) {
     nav #idioma {
       display: none; } }
@@ -328,7 +330,8 @@ body {
       color: white;
       font-size: 2rem;
       text-align: center;
-      background-image: linear-gradient(20deg, #051923, #056290, #069feb); }
+      background-image: linear-gradient(20deg, #051923, #056290, #069feb);
+      padding: 30px; }
     body main h2 {
       background-color: whitesmoke;
       color: black;
@@ -374,10 +377,12 @@ body {
     height: 240vh; }
     body header {
       height: 15vh; }
-      body header nav div ul li {
-        width: 80px;
-        font-size: 0.65rem;
-        margin: 10px; }
+      body header nav .logo img {
+        height: 40px; }
+      body header nav div {
+        height: 40px; }
+        body header nav div ul li {
+          font-size: 0.8rem; }
     body main {
       height: 220vh; }
       body main h1 {
@@ -388,9 +393,13 @@ body {
       font-size: 1rem; } }
 
 @media (max-width: 480px) {
-  body header nav div ul li {
-    width: 55px;
-    font-size: 0.5rem; }
+  body header nav .logo img {
+    width: 40px;
+    height: 35px; }
+  body header nav div {
+    height: 35px; }
+    body header nav div ul li {
+      font-size: 0.6rem; }
   body main h1 {
     height: 50px;
     font-size: 1rem;
@@ -403,10 +412,13 @@ body {
     height: 230vh; }
     body header {
       height: 10vh; }
-      body header nav div ul li {
-        width: 70px;
-        font-size: 0.4rem;
-        margin: 0px; }
+      body header nav .logo img {
+        width: 40px;
+        height: 28px; }
+      body header nav div {
+        height: 30px; }
+        body header nav div ul li {
+          font-size: 0.35rem; }
     body main {
       height: 215vh; }
       body main h1 {

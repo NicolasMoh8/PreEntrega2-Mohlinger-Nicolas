@@ -31,7 +31,7 @@ body{
         width: 100vw;
         height: 10vh;
         grid-area: header;
-        top: 0;
+        top: 0; 
         background-color: $background-header;
         font-weight: bold; 
         
@@ -50,7 +50,7 @@ body{
             font-size: $font-size*2;
             text-align: center;
             background-image: linear-gradient(20deg, #051923, #056290, #069feb );
-            
+            padding: 30px;
         }
         h2{
             background-color: $background-h2;
@@ -98,8 +98,9 @@ body{
       height: 235vh;
 
       header{
-        height: 15vh;    
-      }
+        height: 15vh; 
+          
+    }
       main{        
         height: 215vh;
         h1{
@@ -120,18 +121,21 @@ body{
     body{
         height: 240vh;
         header{
-          height: 15vh;
-          nav{
-              div{
-                  ul{
-                      li{
-                          width: 80px;
-                          font-size: $font-size*0.65;
-                          margin: 10px;
-                      } 
-                  }
-              }
-          }        
+            height: 15vh;
+            nav{
+                .logo img{                
+                    height: 40px;        
+                }
+                div{
+                    height: 40px;
+                    ul{
+                        li{                          
+                          font-size: $font-size*0.8;                          
+                        } 
+                    }
+                }
+                  
+            }           
         }
         main{          
           height: 220vh;
@@ -152,12 +156,17 @@ body{
     body{
         header{
             nav{
+                .logo img{  
+                    width: 40px;              
+                    height: 35px;        
+                }
                 div{
+                    height: 35px;
                     ul{
                         li{    
-                            width: 55px;
-                            font-size: $font-size*0.50;    
-                        }                        
+                            font-size: $font-size*0.60;    
+                        } 
+                                              
                     }
                 }
             }
@@ -181,13 +190,17 @@ body{
         header{
             height: 10vh;
             nav{
+                .logo img{                      
+                    width: 40px;              
+                    height: 28px;        
+                }
                 div{
+                    height: 30px;
                     ul{
-                        li{
-                            width: 70px;    
-                            font-size: $font-size*0.40;
-                            margin: 0px;    
+                        li{    
+                            font-size: $font-size*0.35;    
                         } 
+                                              
                     }
                 }
             }

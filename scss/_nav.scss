@@ -6,13 +6,13 @@ nav{
     justify-content: space-around;
     
     .logo img{
-        width: 58px;
-        height: 45px;
+        width: 5vw;
+        height: 8vh;
 
     }
     
     div{
-        height: 48px;
+        height: 7vh;
         a{
             &:hover{
                 color: black;
@@ -56,7 +56,7 @@ nav{
 
     
     
-    @media (max-width: 480px){
+    /* @media (max-width: 480px){
         #idioma{
             display: none;
         }  
@@ -65,7 +65,7 @@ nav{
         #idioma{
             display: none;
         }  
-    }
+    } */
 
 }
 

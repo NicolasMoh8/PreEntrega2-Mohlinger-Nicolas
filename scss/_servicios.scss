@@ -1,137 +1,149 @@
-main{
-    #titulo_servicios{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #subtitulo_servicios{
-        display: grid;
-        grid-template-columns: 1fr;
-    } 
-    #desayuno{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        border: 2px solid $border;
-        padding: 2px;
-        width: 98%;
-        div{
-            .servicios__imagen {
-                width: 200px;
-                height: 100px;
-            }
-            @media (max-width: 480px) {  
-                .servicios__imagen {
-                    width: 150px;
-                    height: 100px;
-                }   
-            }
+#titulo_servicios{
+    width: 100%;
+    height: 8%;
+    display: grid;
+    /* grid-template-columns: 1fr; */
+}
+#subtitulo_servicios{
+    display: grid;
+    /* grid-template-columns: 1fr; */
+} 
+#desayuno{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid $border;
+    padding: 2px;
+    width: 98%;
+    height: auto;
+    div{
+        .servicios__imagen {
+            width: 18vw;
+            height: 18vh;
         }
-        div{
-            p{
-                width: 90%;
-            } 
+        /* @media (max-width: 480px) {  
+            .servicios__imagen {
+                width: 150px;
+                height: 100px;
+            }   
+        } */
+    }
+    div{
+        p{
+            width: 90%;
+            font-size: $font-size*1.5;
+        } 
 
-        }
-    }
-    #restaurant{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        border: 2px solid $border;
-        padding: 2px;
-        width: 98%;
-        div{
-            .servicios__imagen {
-                width: 200px;
-                height: 100px;
-            }
-            @media (max-width: 480px) {  
-                .servicios__imagen {
-                    width: 150px;
-                    height: 100px;
-                }   
-            } 
-        }
-        div{
-            p{
-                width: 90%;
-            } 
-
-        }
-    }
-    #pileta{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        border: 2px solid $border;
-        padding: 2px;
-        width: 98%;
-        div{
-            .servicios__imagen {
-                width: 200px;
-                height: 100px;
-            } 
-            @media (max-width: 480px) {  
-                .servicios__imagen {
-                    width: 150px;
-                    height: 100px;
-                }   
-            }
-        }
-        div{
-            p{
-                width: 90%;
-            } 
-        }
-    }
-    #estacionamiento{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        border: 2px solid $border;
-        padding: 2px;
-        width: 98%;
-        div{
-            .servicios__imagen {
-                width: 200px;
-                height: 100px;
-            }
-            @media (max-width: 480px) {  
-                .servicios__imagen {
-                    width: 150px;
-                    height: 100px;
-                }   
-            }
-        }
-        div{
-            p{
-                width: 90%;
-            } 
-
-        }
-    }
-    #gimnasio{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        border: 2px solid $border;
-        padding: 2px;
-        width: 98%;
-        div{
-            .servicios__imagen {
-                width: 200px;
-                height: 100px;
-            }
-            @media (max-width: 480px) {  
-                .servicios__imagen {
-                    width: 150px;
-                    height: 100px;
-                }   
-            } 
-        }
-        div{
-            p{
-                width: 90%;
-            } 
-
-        }
     }
 }
+#restaurant{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid $border;
+    padding: 2px;
+    width: 98%;
+    height: auto;
+    div{
+        .servicios__imagen {
+            width: 18vw;
+            height: 18vh;
+        }
+       /*  @media (max-width: 480px) {  
+            .servicios__imagen {
+                width: 150px;
+                height: 100px;
+            }   
+        } */ 
+    }
+    div{
+        p{
+            width: 90%;
+            font-size: $font-size*1.5;
+        } 
+
+    }
+}
+#pileta{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid $border;
+    padding: 2px;
+    width: 98%;
+    height: auto;
+    div{
+        .servicios__imagen {
+            width: 18vw;
+            height: 18vh;
+        } 
+        /* @media (max-width: 480px) {  
+            .servicios__imagen {
+                width: 150px;
+                height: 100px;
+            }   
+        } */
+    }
+    div{
+        p{
+            width: 90%;
+            font-size: $font-size*1.5;
+        } 
+    }
+}
+#estacionamiento{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid $border;
+    padding: 2px;
+    width: 98%;
+    height: auto;
+    div{
+        .servicios__imagen {
+            width: 18vw;
+            height: 18vh;
+        }
+       /*  @media (max-width: 480px) {  
+            .servicios__imagen {
+                width: 150px;
+                height: 100px;
+            }   
+        } */
+    }
+    div{
+        p{
+            width: 90%;
+            font-size: $font-size*1.5;
+        } 
+
+    }
+}
+#gimnasio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid $border;
+    padding: 2px;
+    width: 98%;
+    height: auto;
+    div{
+        .servicios__imagen {
+            width: 18vw;
+            height: 18vh;
+        }
+       /*  @media (max-width: 480px) {  
+            .servicios__imagen {
+                width: 150px;
+                height: 100px;
+            }   
+        } */ 
+    }
+    div{
+        p{
+            width: 90%;
+            font-size: $font-size*1.5;
+        } 
+
+    }
+}
+    
+
 
 
 

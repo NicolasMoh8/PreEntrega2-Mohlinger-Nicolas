@@ -1,80 +1,35 @@
 #titulo_triple{
     width: 100%;
-    height: 8%;
+    height: 6%;
     display: grid;
-    /* grid-template-columns: 1fr;  */ 
+    grid-template-columns: 1fr;  
+    padding: 5%;  
 }
 #subtitulo_triple{
     display: grid;
-    /* grid-template-columns: 1fr; */    
+    grid-template-columns: 1fr;     
 }
 #triple{
     display: grid;
-    grid-template-columns: fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     border: 2px solid $border;
     height: auto;
-    padding: 5px;
-    width: 100%;
+    margin: 5%; 
+    width: 90%;
 
     .habitacion__imagen{
-        width: 50vw;
+        width: 70vw;
         height: 50vh;
         display: block;
         margin: auto;
         padding: 2%;
     }
     .habitacion__contenido{
-        font-size: $font-size*2;
+        font-size: $font-size*0.8;
         font-style: oblique;
         font-family: Arial, Helvetica, sans-serif;
         padding: 2%;
-
-    }
-    
-    /*  .transform{
-  
-        transform: rotate(10deg) translate(50px, 50px);
-        
-        @media (max-width: 600px){
-            .habitacion__imagen{
-                width: 250px;
-                height: 150px;
-            } 
-        }
-        @media (max-width: 480px){
-            .habitacion__imagen{
-                width: 200px;
-                height: 100px;
-            } 
-        }
-        @media (max-width: 320px){
-            .habitacion__imagen{
-                width: 130px;
-                height: 100px;
-            } 
-        } 
-    }
-     @media (max-width: 768px){
-        .transform{
-            transform: rotate(10deg) translate(-20px, 50px);
-        }
-    }
-    @media (max-width: 600px){
-        .transform{      
-            transform: rotate(10deg) translate(10px, 35px);        
-        }
-    }
-    @media (max-width: 480px){
-        .transform{      
-            transform: rotate(10deg) translate(8px, 30px);
-        }
-    }
-    @media (max-width: 320px){
-        .transform{
-            transform: rotate(10deg) translate(0px, 20px);
-        }
-    }  */
-   
+    }   
 } 
     

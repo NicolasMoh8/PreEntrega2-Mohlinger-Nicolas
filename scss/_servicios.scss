@@ -1,145 +1,117 @@
 #titulo_servicios{
     width: 100%;
-    height: 8%;
+    height: 6%;
     display: grid;
-    /* grid-template-columns: 1fr; */
+    grid-template-columns: 1fr; 
+    padding: 5%; 
 }
 #subtitulo_servicios{
     display: grid;
-    /* grid-template-columns: 1fr; */
+    grid-template-columns: 1fr; 
 } 
 #desayuno{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid $border;
-    padding: 2px;
+    grid-template-columns: 0.5fr 1.5fr;
+    border: 0.2rem solid $border;
+    padding: 0.5%;
     width: 98%;
     height: auto;
     div{
         .servicios__imagen {
-            width: 18vw;
-            height: 18vh;
+            width: 30vw;
+            height: 12vh;
         }
-        /* @media (max-width: 480px) {  
-            .servicios__imagen {
-                width: 150px;
-                height: 100px;
-            }   
-        } */
+        
     }
     div{
         p{
-            width: 90%;
-            font-size: $font-size*1.5;
-        } 
-
+            width: 95%;
+            font-size: $font-size*0.8;  
+        }
     }
 }
 #restaurant{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid $border;
-    padding: 2px;
+    grid-template-columns: 0.5fr 1.5fr;
+    border: 0.2rem solid $border;
+    padding: 0.5%;
     width: 98%;
     height: auto;
     div{
         .servicios__imagen {
-            width: 18vw;
-            height: 18vh;
+            width: 30vw;
+            height: 12vh;
         }
-       /*  @media (max-width: 480px) {  
-            .servicios__imagen {
-                width: 150px;
-                height: 100px;
-            }   
-        } */ 
+       
     }
     div{
         p{
-            width: 90%;
-            font-size: $font-size*1.5;
-        } 
-
+            width: 95%;
+            font-size: $font-size*0.8;    
+        }
     }
 }
 #pileta{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid $border;
-    padding: 2px;
+    grid-template-columns: 0.5fr 1.5fr;
+    border: 0.2rem solid $border;
+    padding: 0.5%;
     width: 98%;
     height: auto;
     div{
         .servicios__imagen {
-            width: 18vw;
-            height: 18vh;
-        } 
-        /* @media (max-width: 480px) {  
-            .servicios__imagen {
-                width: 150px;
-                height: 100px;
-            }   
-        } */
+            width: 30vw;
+            height: 12vh;
+        }     
     }
     div{
         p{
-            width: 90%;
-            font-size: $font-size*1.5;
-        } 
+            width: 95%;
+            font-size: $font-size*0.8;
+           
+        }    
     }
 }
 #estacionamiento{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid $border;
-    padding: 2px;
+    grid-template-columns: 0.5fr 1.5fr;
+    border: 0.2rem solid $border;
+    padding: 0.5%;
     width: 98%;
     height: auto;
     div{
         .servicios__imagen {
-            width: 18vw;
-            height: 18vh;
-        }
-       /*  @media (max-width: 480px) {  
-            .servicios__imagen {
-                width: 150px;
-                height: 100px;
-            }   
-        } */
+            width: 30vw;
+            height: 12vh;
+        }   
     }
     div{
         p{
-            width: 90%;
-            font-size: $font-size*1.5;
-        } 
-
+            width: 95%;
+            font-size: $font-size*0.8;
+            
+        }
     }
 }
 #gimnasio{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid $border;
-    padding: 2px;
+    grid-template-columns: 0.5fr 1.5fr;
+    border: 0.2rem solid $border;
+    padding: 0.5%;
     width: 98%;
     height: auto;
     div{
         .servicios__imagen {
-            width: 18vw;
-            height: 18vh;
-        }
-       /*  @media (max-width: 480px) {  
-            .servicios__imagen {
-                width: 150px;
-                height: 100px;
-            }   
-        } */ 
+            width: 30vw;
+            height: 12vh;
+        }    
     }
     div{
         p{
-            width: 90%;
-            font-size: $font-size*1.5;
-        } 
-
+            width: 95%;
+            font-size: $font-size*0.8;
+            
+        }
     }
 }
     

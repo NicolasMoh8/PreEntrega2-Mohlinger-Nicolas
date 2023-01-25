@@ -11,6 +11,24 @@ nav{
     }
     div{
         height: 1vh;
+        ul, ol{
+            list-style: none;      
+        }
+         ul {
+             li{        
+                 a{
+                     background-color: $background-boton; 
+                     color: $letras-boton;
+                     padding: 0.5rem; 
+                     display: block;    
+                }
+                 ul{
+                     display: none;
+                     position: absolute;                
+                     min-width: 23.5%;    
+                }
+            }
+        }
         a{
             &:hover{
                 color: black;
@@ -18,31 +36,14 @@ nav{
             }
         }    
     }   
-    ul, ol{
-       list-style: none;      
-    }
-    ul {
-        li{        
-            a{
-                background-color: $background-boton; 
-                color: $letras-boton;
-                padding: 0.5rem; 
-                display: block;    
-            }
-            ul{
-                display: none;
-                position: absolute;                
-                min-width: 23.5%;    
-            }
-        }
-    }
+    
     .nav > li{
         float: left;
     }     
     .submenu{
         &:hover ul{
             display: block;            
-            position: absolute;              
+            position: absolute;               
         }
     } 
 }

@@ -10,20 +10,20 @@ nav {
     height: 6vh; }
   nav div {
     height: 1vh; }
+    nav div ul, nav div ol {
+      list-style: none; }
+    nav div ul li a {
+      background-color: black;
+      color: whitesmoke;
+      padding: 0.5rem;
+      display: block; }
+    nav div ul li ul {
+      display: none;
+      position: absolute;
+      min-width: 23.5%; }
     nav div a:hover {
       color: black;
       background-color: white; }
-  nav ul, nav ol {
-    list-style: none; }
-  nav ul li a {
-    background-color: black;
-    color: whitesmoke;
-    padding: 0.5rem;
-    display: block; }
-  nav ul li ul {
-    display: none;
-    position: absolute;
-    min-width: 23.5%; }
   nav .nav > li {
     float: left; }
   nav .submenu:hover ul {

@@ -1,13 +1,29 @@
 nav {
   width: 100%;
-  height: 50%;
-  display: flex;
+  height: 40%;
   align-items: center;
+  display: flex;
   justify-content: space-around;
   font-size: 0.5rem; }
+  @media (min-width: 537px) {
+    nav {
+      height: 60%;
+      font-size: 0.8rem; } }
+  @media (min-width: 768px) {
+    nav {
+      font-size: 1rem; } }
+  @media (min-width: 1024px) {
+    nav {
+      font-size: 1.5rem; } }
   nav .logo img {
-    width: 7vw;
+    width: 9vw;
     height: 6vh; }
+    @media (min-width: 537px) {
+      nav .logo img {
+        height: 10vh; } }
+    @media (min-width: 1024px) {
+      nav .logo img {
+        height: 12vh; } }
   nav div {
     height: 1vh; }
     nav div ul, nav div ol {
@@ -21,6 +37,9 @@ nav {
       display: none;
       position: absolute;
       min-width: 23.5%; }
+      @media (min-width: 537px) {
+        nav div ul li ul {
+          min-width: 20.6%; } }
     nav div a:hover {
       color: black;
       background-color: white; }
@@ -35,13 +54,13 @@ nav {
   display: grid;
   grid-area: mainpresent;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 3fr;
+  grid-template-rows: 0.3fr 3fr;
   grid-template-areas: "titulo"  "section"; }
   #mainPresentacion .presentacion {
     grid-area: section;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
     grid-template-areas: "presimg" "prescont";
     justify-items: center; }
     #mainPresentacion .presentacion .presentacion__imagen {
@@ -49,18 +68,19 @@ nav {
       #mainPresentacion .presentacion .presentacion__imagen #presentacionImg {
         width: 80vw;
         height: 50vh;
-        margin: 2%; }
-      #mainPresentacion .presentacion .presentacion__imagen .animacion {
-        animation-name: move;
-        animation-duration: 2s; }
-
-@keyframes move {
-  from {
-    rotate: 0deg;
-    opacity: 0; }
-  to {
-    rotate: 360deg;
-    opacity: 1; } }
+        padding: 1%; }
+        @media (min-width: 537px) {
+          #mainPresentacion .presentacion .presentacion__imagen #presentacionImg {
+            width: 90vw;
+            height: 70vh; } }
+        @media (min-width: 768px) {
+          #mainPresentacion .presentacion .presentacion__imagen #presentacionImg {
+            width: 90vw;
+            height: 80vh; } }
+        @media (min-width: 1024px) {
+          #mainPresentacion .presentacion .presentacion__imagen #presentacionImg {
+            width: 95vw;
+            height: 85vh; } }
     #mainPresentacion .presentacion .presentacion__contenido {
       grid-area: prescont;
       margin: 2%;
@@ -68,17 +88,32 @@ nav {
       border-radius: 10px;
       background-color: white;
       padding: 5px;
-      height: 80%;
+      height: 90%;
       width: 95%;
-      font-size: 0.8rem;
+      font-size: 1rem;
       font-family: Arial, Helvetica, sans-serif; }
+      @media (min-width: 537px) {
+        #mainPresentacion .presentacion .presentacion__contenido {
+          font-size: 1.3rem; } }
+      @media (min-width: 768px) {
+        #mainPresentacion .presentacion .presentacion__contenido {
+          font-size: 1.5rem; } }
+      @media (min-width: 1024px) {
+        #mainPresentacion .presentacion .presentacion__contenido {
+          font-size: 1.8rem; } }
 
 #titulo_doble {
   width: 100%;
   height: 6%;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 5%; }
+  padding: 3%; }
+  @media (min-width: 537px) {
+    #titulo_doble {
+      padding: 2%; } }
+  @media (min-width: 1024px) {
+    #titulo_doble {
+      height: 8%; } }
 
 #subtitulo_doble {
   display: grid;
@@ -98,18 +133,33 @@ nav {
     display: block;
     margin: auto;
     padding: 2%; }
+    @media (min-width: 537px) {
+      #doble .habitacion__imagen {
+        height: 70vh; } }
   #doble .habitacion__contenido {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-style: oblique;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2%; }
+    @media (min-width: 537px) {
+      #doble .habitacion__contenido {
+        font-size: 1.5rem; } }
+    @media (min-width: 1024px) {
+      #doble .habitacion__contenido {
+        font-size: 1.8rem; } }
 
 #titulo_triple {
   width: 100%;
   height: 6%;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 5%; }
+  padding: 3%; }
+  @media (min-width: 537px) {
+    #titulo_triple {
+      padding: 2%; } }
+  @media (min-width: 1024px) {
+    #titulo_triple {
+      height: 8%; } }
 
 #subtitulo_triple {
   display: grid;
@@ -129,18 +179,30 @@ nav {
     display: block;
     margin: auto;
     padding: 2%; }
+    @media (min-width: 537px) {
+      #triple .habitacion__imagen {
+        height: 70vh; } }
   #triple .habitacion__contenido {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-style: oblique;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2%; }
+    @media (min-width: 537px) {
+      #triple .habitacion__contenido {
+        font-size: 1.5rem; } }
+    @media (min-width: 1024px) {
+      #triple .habitacion__contenido {
+        font-size: 1.8rem; } }
 
 #titulo_servicios {
   width: 100%;
   height: 6%;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 5%; }
+  padding: 3%; }
+  @media (min-width: 537px) {
+    #titulo_servicios {
+      padding: 2%; } }
 
 #subtitulo_servicios {
   display: grid;
@@ -156,9 +218,21 @@ nav {
   #desayuno div .servicios__imagen {
     width: 30vw;
     height: 12vh; }
+    @media (min-width: 537px) {
+      #desayuno div .servicios__imagen {
+        height: 18vh; } }
+    @media (min-width: 768px) {
+      #desayuno div .servicios__imagen {
+        height: 20vh; } }
   #desayuno div p {
     width: 95%;
     font-size: 0.8rem; }
+    @media (min-width: 537px) {
+      #desayuno div p {
+        font-size: 1rem; } }
+    @media (min-width: 768px) {
+      #desayuno div p {
+        font-size: 1.2rem; } }
 
 #restaurant {
   display: grid;
@@ -170,9 +244,21 @@ nav {
   #restaurant div .servicios__imagen {
     width: 30vw;
     height: 12vh; }
+    @media (min-width: 537px) {
+      #restaurant div .servicios__imagen {
+        height: 18vh; } }
+    @media (min-width: 768px) {
+      #restaurant div .servicios__imagen {
+        height: 20vh; } }
   #restaurant div p {
     width: 95%;
     font-size: 0.8rem; }
+    @media (min-width: 537px) {
+      #restaurant div p {
+        font-size: 1rem; } }
+    @media (min-width: 768px) {
+      #restaurant div p {
+        font-size: 1.2rem; } }
 
 #pileta {
   display: grid;
@@ -184,9 +270,21 @@ nav {
   #pileta div .servicios__imagen {
     width: 30vw;
     height: 12vh; }
+    @media (min-width: 537px) {
+      #pileta div .servicios__imagen {
+        height: 18vh; } }
+    @media (min-width: 768px) {
+      #pileta div .servicios__imagen {
+        height: 20vh; } }
   #pileta div p {
     width: 95%;
     font-size: 0.8rem; }
+    @media (min-width: 537px) {
+      #pileta div p {
+        font-size: 1rem; } }
+    @media (min-width: 768px) {
+      #pileta div p {
+        font-size: 1.2rem; } }
 
 #estacionamiento {
   display: grid;
@@ -198,9 +296,21 @@ nav {
   #estacionamiento div .servicios__imagen {
     width: 30vw;
     height: 12vh; }
+    @media (min-width: 537px) {
+      #estacionamiento div .servicios__imagen {
+        height: 18vh; } }
+    @media (min-width: 768px) {
+      #estacionamiento div .servicios__imagen {
+        height: 20vh; } }
   #estacionamiento div p {
     width: 95%;
     font-size: 0.8rem; }
+    @media (min-width: 537px) {
+      #estacionamiento div p {
+        font-size: 1rem; } }
+    @media (min-width: 768px) {
+      #estacionamiento div p {
+        font-size: 1.2rem; } }
 
 #gimnasio {
   display: grid;
@@ -212,33 +322,146 @@ nav {
   #gimnasio div .servicios__imagen {
     width: 30vw;
     height: 12vh; }
+    @media (min-width: 537px) {
+      #gimnasio div .servicios__imagen {
+        height: 18vh; } }
+    @media (min-width: 768px) {
+      #gimnasio div .servicios__imagen {
+        height: 20vh; } }
   #gimnasio div p {
     width: 95%;
     font-size: 0.8rem; }
+    @media (min-width: 537px) {
+      #gimnasio div p {
+        font-size: 1rem; } }
+    @media (min-width: 768px) {
+      #gimnasio div p {
+        font-size: 1.2rem; } }
 
-.contacto section {
-  font-size: 0.8rem; }
+/* .contacto{
+    section{
+        font-size: $font-size*0.8;   
+    }
+    #estiloTextarea{
+        background-color: #003554;
+        color: white;
+        width: 90%;       
+        border: 1%;
+        border-radius: 15px;   
+    }
+    input{
+        font-size: $font-size*0.5;    
+    }
+    select{
+        font-size: $font-size*0.5;
+    }
+    #titulo_contacto{
+        width: 100%;
+        height: 6%;
+        padding: 5%;
+    }
+    section{
+        #contactoSection{
+            width: 100%;            
+        }
+    }
 
-.contacto #estiloTextarea {
-  background-color: #003554;
-  color: white;
-  width: 90%;
-  border: 1%;
-  border-radius: 15px; }
-
-.contacto input {
-  font-size: 0.5rem; }
-
-.contacto select {
-  font-size: 0.5rem; }
-
-.contacto #titulo_contacto {
+} */
+#titulo_contacto {
   width: 100%;
   height: 6%;
-  padding: 5%; }
+  padding: 3%; }
+  @media (min-width: 537px) {
+    #titulo_contacto {
+      padding: 2%; } }
 
-.contacto section #contactoSection {
-  width: 100%; }
+.formulario {
+  width: 95%;
+  background: #24303c;
+  padding: 30px;
+  margin: 2%;
+  border-radius: 3%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white; }
+  .formulario .contenidoForm {
+    width: 100%;
+    background: #24303c;
+    padding: 1%;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    /* border: 1% solid #1f53c5; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8rem; }
+    @media (min-width: 1024px) {
+      .formulario .contenidoForm {
+        font-size: 1.3rem; } }
+  .formulario p {
+    height: 5vh;
+    font-size: 0.8rem; }
+    @media (min-width: 537px) {
+      .formulario p {
+        font-size: 1rem; } }
+    @media (min-width: 1024px) {
+      .formulario p {
+        font-size: 1.5rem; } }
+    .formulario p a {
+      color: white;
+      text-decoration: none; }
+      .formulario p a:hover {
+        color: white;
+        text-decoration: underline; }
+  .formulario #estiloTextarea {
+    background-color: white;
+    color: #24303c;
+    width: 90%;
+    border-radius: 5%;
+    max-width: 80vw;
+    max-height: 15vh;
+    font-size: 0.8rem; }
+    @media (min-width: 537px) {
+      .formulario #estiloTextarea {
+        max-width: 80vw;
+        max-height: 20vh; } }
+    @media (min-width: 1024px) {
+      .formulario #estiloTextarea {
+        font-size: 1rem; } }
+  .formulario .botonForm {
+    width: 20%;
+    background: #1f53c5;
+    border: none;
+    padding: 1%;
+    color: white;
+    margin: 1% 0%;
+    font-size: 0.5rem; }
+    @media (min-width: 768px) {
+      .formulario .botonForm {
+        font-size: 0.8rem; } }
+    @media (min-width: 1024px) {
+      .formulario .botonForm {
+        font-size: 1rem; } }
+
+.textoForm {
+  margin: 2%;
+  background-color: transparent;
+  padding: 5px;
+  width: 95%;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif; }
+  @media (min-width: 537px) {
+    .textoForm {
+      font-size: 1rem; } }
+  @media (min-width: 1024px) {
+    .textoForm {
+      font-size: 1.5rem; } }
+
+section div .datos {
+  font-size: 0.8rem; }
+  @media (min-width: 537px) {
+    section div .datos {
+      font-size: 1rem; } }
+  @media (min-width: 1024px) {
+    section div .datos {
+      font-size: 1.5rem; } }
 
 * {
   margin: 0;
@@ -260,6 +483,9 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "header header" "mainpresent mainpresent" "footer footer"; }
+  @media (min-width: 537px) {
+    body {
+      height: 210vh; } }
   body header {
     width: 100vw;
     height: 10vh;
@@ -267,29 +493,54 @@ body {
     top: 0;
     background-color: #003554;
     font-weight: bold; }
+    @media (min-width: 537px) {
+      body header {
+        height: 20vh; } }
   body main {
     width: 100vw;
-    height: 165vh;
+    height: 168vh;
     background-color: #bfdbf7; }
+    @media (min-width: 537px) {
+      body main {
+        height: 188vh; } }
     body main h1 {
       grid-area: titulo;
       width: 100%;
-      height: 40%;
+      height: 100%;
       color: white;
       text-align: center;
       background-image: linear-gradient(20deg, #051923, #056290, #069feb);
       padding: 2%;
-      font-size: 1rem; }
+      font-size: 1.3rem; }
+      @media (min-width: 537px) {
+        body main h1 {
+          font-size: 1.8rem; } }
+      @media (min-width: 1024px) {
+        body main h1 {
+          font-size: 2.5rem; } }
     body main h2 {
       background-color: whitesmoke;
       color: black;
       text-align: center;
       text-decoration: underline;
-      font-size: 0.8rem;
+      font-size: 1rem;
       margin: 2%; }
+      @media (min-width: 537px) {
+        body main h2 {
+          font-size: 1.2rem; } }
+      @media (min-width: 1024px) {
+        body main h2 {
+          font-size: 1.8rem; } }
     body main h3 {
       background-color: #1f7a8c;
-      color: white; }
+      color: white;
+      font-size: 0.8rem; }
+      @media (min-width: 537px) {
+        body main h3 {
+          font-size: 1rem; } }
+      @media (min-width: 1024px) {
+        body main h3 {
+          font-size: 1.4rem; } }
   body footer {
     width: 100vw;
     height: 10vh;
@@ -304,3 +555,10 @@ body {
     align-items: center; }
     body footer p {
       width: 20%; }
+    @media (min-width: 537px) {
+      body footer {
+        height: 12vh;
+        font-size: 1rem; } }
+    @media (min-width: 1024px) {
+      body footer {
+        font-size: 1.3rem; } }

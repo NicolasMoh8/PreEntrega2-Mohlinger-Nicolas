@@ -27,41 +27,68 @@ body{
     "header header"
     "mainpresent mainpresent"
     "footer footer";
-    
+    @media (min-width: 537px){
+        height: 210vh;;
+    }
     header{
         width: 100vw;
         height: 10vh;
         grid-area: header;
         top: 0; 
         background-color: $background-header;
-        font-weight: bold;        
+        font-weight: bold;
+        @media (min-width: 537px){
+            height: 20vh;
+        }        
     }
     main{
         width: 100vw;
-        height: 165vh;
-        background-color: $background-main;        
+        height: 168vh;
+        background-color: $background-main;   
+        @media (min-width: 537px){
+            height: 188vh ;
+        }     
        
         h1{
             grid-area: titulo;
             width: 100%;
-            height: 40%;
+            height: 100%;
             color: $color-h1;            
             text-align: center;
             background-image: linear-gradient(20deg, #051923, #056290, #069feb );
             padding: 2%;  
-            font-size: $font-size;
+            font-size: $font-size*1.3;
+            @media (min-width: 537px){
+                font-size: $font-size*1.8;
+            }
+            @media (min-width: 1024px){
+                font-size: $font-size*2.5;
+            }
         }
         h2{
             background-color: $background-h2;
             color: $letra-h2;
             text-align: center;
             text-decoration: underline;
-            font-size: 0.8rem;            
+            font-size: $font-size;            
             margin: 2%;
+            @media (min-width: 537px){
+                font-size: $font-size*1.2;
+            }
+            @media (min-width: 1024px){
+                font-size: $font-size*1.8;
+            }
         }
         h3{
             background-color: $background-h3; 
             color: $letra-h3;
+            font-size: $font-size*0.8;
+            @media (min-width: 537px){
+                font-size: $font-size;
+            }
+            @media (min-width: 1024px){
+                font-size: $font-size*1.4;
+            }
         }
     }
    
@@ -79,8 +106,13 @@ body{
         align-items: center;
         p{
             width: 20%; 
-        }   
+        } 
+        @media (min-width: 537px){
+            height: 12vh;
+            font-size: $font-size;
+        } 
+        @media (min-width: 1024px){
+            font-size: $font-size*1.3;
+        }  
     }
 }
-
-

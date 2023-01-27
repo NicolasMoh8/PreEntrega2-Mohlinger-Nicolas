@@ -3,7 +3,10 @@
     height: 6%;
     display: grid;
     grid-template-columns: 1fr; 
-    padding: 5%; 
+    padding: 3%;
+    @media (min-width: 537px){
+        padding: 2%;
+    } 
 }
 #subtitulo_servicios{
     display: grid;
@@ -20,13 +23,26 @@
         .servicios__imagen {
             width: 30vw;
             height: 12vh;
+            @media (min-width: 537px){
+                height: 18vh;
+            }
+            @media (min-width: 768px){
+                height: 20vh;
+            }
         }
+        
         
     }
     div{
         p{
             width: 95%;
-            font-size: $font-size*0.8;  
+            font-size: $font-size*0.8;
+            @media (min-width: 537px){
+                font-size: $font-size;
+            }
+            @media (min-width: 768px){
+                font-size: $font-size*1.2;
+            }  
         }
     }
 }
@@ -41,13 +57,25 @@
         .servicios__imagen {
             width: 30vw;
             height: 12vh;
+            @media (min-width: 537px){
+                height: 18vh;
+            }
+            @media (min-width: 768px){
+                height: 20vh;
+            }
         }
        
     }
     div{
         p{
             width: 95%;
-            font-size: $font-size*0.8;    
+            font-size: $font-size*0.8; 
+            @media (min-width: 537px){
+                font-size: $font-size;
+            }
+            @media (min-width: 768px){
+                font-size: $font-size*1.2;
+            }    
         }
     }
 }
@@ -62,12 +90,24 @@
         .servicios__imagen {
             width: 30vw;
             height: 12vh;
+            @media (min-width: 537px){
+                height: 18vh;
+            }
+            @media (min-width: 768px){
+                height: 20vh;
+            }
         }     
     }
     div{
         p{
             width: 95%;
             font-size: $font-size*0.8;
+            @media (min-width: 537px){
+                font-size: $font-size;
+            } 
+            @media (min-width: 768px){
+                font-size: $font-size*1.2;
+            }
            
         }    
     }
@@ -83,12 +123,24 @@
         .servicios__imagen {
             width: 30vw;
             height: 12vh;
+            @media (min-width: 537px){
+                height: 18vh;
+            }
+            @media (min-width: 768px){
+                height: 20vh;
+            }
         }   
     }
     div{
         p{
             width: 95%;
             font-size: $font-size*0.8;
+            @media (min-width: 537px){
+                font-size: $font-size;
+            } 
+            @media (min-width: 768px){
+                font-size: $font-size*1.2;
+            }
             
         }
     }
@@ -104,12 +156,24 @@
         .servicios__imagen {
             width: 30vw;
             height: 12vh;
+            @media (min-width: 537px){
+                height: 18vh;
+            }
+            @media (min-width: 768px){
+                height: 20vh;
+            }
         }    
     }
     div{
         p{
             width: 95%;
             font-size: $font-size*0.8;
+            @media (min-width: 537px){
+                font-size: $font-size;
+            } 
+            @media (min-width: 768px){
+                font-size: $font-size*1.2;
+            }
             
         }
     }

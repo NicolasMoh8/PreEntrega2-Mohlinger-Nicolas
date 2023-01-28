@@ -35,154 +35,71 @@
         </header>
         <main class="contacto">
             <h1 class="titulo gradiente" id="titulo_contacto">Hotel MUNDIAL</h1>
-            <h2>Contacto y Reservas.</h2> <br>
-            <!-- <section id="contactoSection">
+            <h2>Contacto y Reservas.</h2> <br>            
+            <section class="formulario">
                 <form action="" method="post" enctype="text/plain">
-                    <fieldset>
-                        <legend>Datos Personales</legend>
+                    <div>
                         <div>
                             <label for="Nombre y Apellido"></label>
-                            <input type="text" id="Nombre y Apellido" placeholder="Nombre y Apellido">
+                            <input class="contenidoForm" type="text" id="Nombre y Apellido" placeholder="Nombre y Apellido">
                         </div>
                         <div>
                             <label for="Dirección"></label>
-                            <input type="text" id="Dirección" placeholder="Dirección">
+                            <input class="contenidoForm" type="text" id="Dirección" placeholder="Dirección">
                         </div>
                         <div>
                             <label for="Mail"></label>
-                            <input type="email" id="Mail" placeholder="Mail">
+                            <input class="contenidoForm" type="email" id="Mail" placeholder="Mail">
+                        </div>
+                        <div>
+                            <label for="Telefono"></label>
+                            <input class="contenidoForm" type="tel" id="Teléfono" placeholder="Teléfono">
                         </div>
                         <div>
                             <label for="Ciudad/Pais"></label>
-                            <input type="text" id="Ciudad/Pais" placeholder="Ciudad/Pais">
-                        </div>
-                    </fieldset>
-                    <br>
-                    <fieldset>
-                        <legend>Datos de la Reserva</legend>
-                        <strong><legend>Seleccione la fecha de su estadia</legend></strong>
-                        <div>
-                            <label for="dia">
-                                <span>Desde</span>
-                                <input type="date" id="datename="dia" />
-                            </label>
-                            <label for="dia">
-                                <span>Hasta</span>
-                                <input type="date" id="datename="dia" />
-                            </label>
-                        </div>
-                        <strong><legend>Ocupantes</legend></strong>
-                        <div>
-                            <label for="Adultos">Adultos</label>
-                            <select name="Adultos">
-                                <option value="UNO">1</option>
-                                <option value="DOS">2</option>
-                                <option value="TRES">3</option>
-                                <option value="CUATRO">4</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="Niños">Niños</label>
-                            <select name="Niños">
-                                <option value="CERO">0</option>
-                                <option value="UNO">1</option>
-                                <option value="DOS">2</option>
-                                <option value="TRES">3</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="Habitaciones">Cantidad de habitaciones</label>
-                            <select name="Cantidad de habitaciones">
-                                <option value="UNO">1</option>
-                                <option value="DOS">2</option>
-                                <option value="TRES">3</option>
-                            </select>
-                        </div>
-                        <div>
-                            <strong><label for="Tipo de habitacion">Seleccione tipo de habitación</label></strong> <br>
-                            <input type="radio" name="tipodehabitacion" value="habitaciondoble"> Habitación Doble <br>
-                            <input type="radio" name="tipodehabitacion" value="habitaciontriple"> Habitación Triple <br>
-                        </div>    
-                    </fieldset>
-                    <br>
-                    <fieldset>
-                        <legend>Dejanos tu Mensaje</legend>
-                        <div>
-                            <textarea id=estiloTextarea name="Mensaje" id="desplegable" cols="100" rows="10"></textarea>
-                        </div>
-                    </fieldset>
-                    <br>
-                    <fieldset>
-                        <legend>Enviar/limpiar el formulario</legend>
-                        <div>
-                            <input type="submit" value="ENVIAR">
-                            <input type="reset" value="LIMPIAR">                
-                        </div>   
-                    </fieldset>
+                            <input class="contenidoForm" type="text" id="Ciudad/Pais" placeholder="Ciudad/Pais">
+                        </div>      
+                    </div>
+                    
+                    <div>
+                        <label for="dia">
+                            <span class="datos">Desde:</span>
+                            <input class="datos" type="date" id="datename="dia />
+                        </label>
+                        <br>
+                        <label for="dia">
+                            <span class="datos">Hasta:</span>
+                            <input class="datos" type="date" id="datename="dia />
+                        </label>
+                    </div>
+                    <div>
+                        <label class="datos" for="Adultos">Adultos:</label>
+                        <select class="datos" name="Adultos">
+                            <option value="UNO">1</option>
+                            <option value="DOS">2</option>
+                            <option value="TRES">3</option>
+                            <option value="CUATRO">4</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="datos" for="Niños">Niños:</label>
+                        <select class="datos" name="Niños">
+                            <option value="CERO">0</option>
+                            <option value="UNO">1</option>
+                            <option value="DOS">2</option>
+                            <option value="TRES">3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <legend class="datos">Mensaje:</legend>
+                        <textarea id=estiloTextarea name="Mensaje" id="desplegable" cols="3"></textarea>
+                    </div>                
+                    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones.</a></p>
+                    <div>
+                        <input class="botonForm" type="submit" value="ENVIAR">
+                        <input class="botonForm" type="reset" value="LIMPIAR">                
+                    </div>
                 </form>
-            </section> -->
-            <section class="formulario">
-                <div>
-                    <div>
-                        <label for="Nombre y Apellido"></label>
-                        <input class="contenidoForm" type="text" id="Nombre y Apellido" placeholder="Nombre y Apellido">
-                    </div>
-                    <div>
-                        <label for="Dirección"></label>
-                        <input class="contenidoForm" type="text" id="Dirección" placeholder="Dirección">
-                    </div>
-                    <div>
-                        <label for="Mail"></label>
-                        <input class="contenidoForm" type="email" id="Mail" placeholder="Mail">
-                    </div>
-                    <div>
-                        <label for="Telefono"></label>
-                        <input class="contenidoForm" type="tel" id="Teléfono" placeholder="Teléfono">
-                    </div>
-                    <div>
-                        <label for="Ciudad/Pais"></label>
-                        <input class="contenidoForm" type="text" id="Ciudad/Pais" placeholder="Ciudad/Pais">
-                    </div>      
-                </div>
-                
-                <div>
-                    <label for="dia">
-                        <span class="datos">Desde:</span>
-                        <input class="datos" type="date" id="datename="dia />
-                    </label>
-                    <br>
-                    <label for="dia">
-                        <span class="datos">Hasta:</span>
-                        <input class="datos" type="date" id="datename="dia />
-                    </label>
-                </div>
-                <div>
-                    <label class="datos" for="Adultos">Adultos</label>
-                    <select class="datos" name="Adultos">
-                        <option value="UNO">1</option>
-                        <option value="DOS">2</option>
-                        <option value="TRES">3</option>
-                        <option value="CUATRO">4</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="datos" for="Niños">Niños</label>
-                    <select class="datos" name="Niños">
-                        <option value="CERO">0</option>
-                        <option value="UNO">1</option>
-                        <option value="DOS">2</option>
-                        <option value="TRES">3</option>
-                    </select>
-                </div>
-                <div>
-                    <legend class="datos">Mensaje:</legend>
-                    <textarea id=estiloTextarea name="Mensaje" id="desplegable" cols="3"></textarea>
-                </div>                
-                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones.</a></p>
-                <div>
-                    <input class="botonForm" type="submit" value="ENVIAR">
-                    <input class="botonForm" type="reset" value="LIMPIAR">                
-                </div>
 
             </section>
             <section class="textoForm"> 

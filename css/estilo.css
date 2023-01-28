@@ -581,18 +581,18 @@ a:visited, a:active {
 
 body {
   width: 100vw;
-  height: 185vh;
+  /* height: 185vh; */
   overflow-x: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 0.05fr 1fr 0.05fr;
   grid-template-areas: "header header" "mainpresent mainpresent" "footer footer"; }
   @media (min-width: 537px) {
     body {
-      height: 210vh; } }
+      /* height: 210vh; */ } }
   @media (min-width: 2560px) {
     body {
-      height: 250vh; } }
+      /* height: 250vh; */ } }
   body header {
     width: 100vw;
     height: 10vh;

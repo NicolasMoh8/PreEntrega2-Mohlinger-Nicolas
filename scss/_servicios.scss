@@ -33,8 +33,14 @@
             @media (min-width: 768px){
                 height: 20vh;
             }
-            @media (min-width: 2560px){
+            @media (min-width: 1024px){
                 height: 25vh;
+            }
+            @media (min-width: 1440px){
+                height: 27vh;
+            }
+            @media (min-width: 2560px){
+                height: 29vh;
             }
         }
         
@@ -49,6 +55,9 @@
             }
             @media (min-width: 768px){
                 font-size: $font-size*1.2;
+            }
+            @media (min-width: 1024px){
+                font-size: $font-size*1.5;
             }
             @media (min-width: 1400px){
                 font-size: $font-size*1.8;                
@@ -75,10 +84,16 @@
                 height: 18vh;
             }
             @media (min-width: 768px){
-                height: 20vh;
+                height: 22vh;
+            }
+            @media (min-width: 1024px){
+                height: 25vh;
+            }
+            @media (min-width: 1440px){
+                height: 27vh;
             }
             @media (min-width: 2560px){
-                height: 25vh;
+                height: 29vh;
             }
             
         }
@@ -94,6 +109,9 @@
             @media (min-width: 768px){
                 font-size: $font-size*1.2;
             } 
+            @media (min-width: 1024px){
+                font-size: $font-size*1.5;
+            }
             @media (min-width: 1400px){
                 font-size: $font-size*1.8;                
             } 
@@ -119,10 +137,16 @@
                 height: 18vh;
             }
             @media (min-width: 768px){
-                height: 20vh;
+                height: 22vh;
+            }
+            @media (min-width: 1024px){
+                height: 25vh;
+            }
+            @media (min-width: 1440px){
+                height: 27vh;
             }
             @media (min-width: 2560px){
-                height: 25vh;
+                height: 29vh;
             }
             
         }     
@@ -136,6 +160,9 @@
             } 
             @media (min-width: 768px){
                 font-size: $font-size*1.2;
+            }
+            @media (min-width: 1024px){
+                font-size: $font-size*1.5;
             }
             @media (min-width: 1400px){
                 font-size: $font-size*1.8;                
@@ -163,10 +190,16 @@
                 height: 18vh;
             }
             @media (min-width: 768px){
-                height: 20vh;
+                height: 22vh;
+            }
+            @media (min-width: 1024px){
+                height: 25vh;
+            }
+            @media (min-width: 1440px){
+                height: 27vh;
             }
             @media (min-width: 2560px){
-                height: 25vh;
+                height: 29vh;
             }
         }   
     }
@@ -179,6 +212,9 @@
             } 
             @media (min-width: 768px){
                 font-size: $font-size*1.2;
+            }
+            @media (min-width: 1024px){
+                font-size: $font-size*1.5;
             }
             @media (min-width: 1400px){
                 font-size: $font-size*1.8;                
@@ -206,10 +242,16 @@
                 height: 18vh;
             }
             @media (min-width: 768px){
-                height: 20vh;
+                height: 22vh;
+            }
+            @media (min-width: 1024px){
+                height: 25vh;
+            }
+            @media (min-width: 1440px){
+                height: 27vh;
             }
             @media (min-width: 2560px){
-                height: 25vh;
+                height: 29vh;
             }
         }    
     }
@@ -222,6 +264,9 @@
             } 
             @media (min-width: 768px){
                 font-size: $font-size*1.2;
+            }
+            @media (min-width: 1024px){
+                font-size: $font-size*1.5;
             }
             @media (min-width: 1400px){
                 font-size: $font-size*1.8;                

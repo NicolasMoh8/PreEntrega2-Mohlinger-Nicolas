@@ -85,7 +85,7 @@ body header nav {
     #mainPresentacion .presentacion .presentacion__imagen {
       grid-area: presimg; }
       #mainPresentacion .presentacion .presentacion__imagen #presentacionImg {
-        width: 80vw;
+        width: 95vw;
         height: 50vh;
         padding: 1%; }
         @media (min-width: 537px) {
@@ -166,7 +166,7 @@ body header nav {
   margin: 5%;
   width: 90%; }
   #doble .habitacion__imagen {
-    width: 70vw;
+    width: 85vw;
     height: 50vh;
     display: block;
     margin: auto;
@@ -174,6 +174,12 @@ body header nav {
     @media (min-width: 537px) {
       #doble .habitacion__imagen {
         height: 70vh; } }
+    @media (min-width: 768px) {
+      #doble .habitacion__imagen {
+        height: 90vh; } }
+    @media (min-width: 1440px) {
+      #doble .habitacion__imagen {
+        height: 95vh; } }
   #doble .habitacion__contenido {
     font-size: 1rem;
     font-style: oblique;
@@ -218,7 +224,7 @@ body header nav {
   margin: 5%;
   width: 90%; }
   #triple .habitacion__imagen {
-    width: 70vw;
+    width: 85vw;
     height: 50vh;
     display: block;
     margin: auto;
@@ -226,6 +232,12 @@ body header nav {
     @media (min-width: 537px) {
       #triple .habitacion__imagen {
         height: 70vh; } }
+    @media (min-width: 768px) {
+      #triple .habitacion__imagen {
+        height: 90vh; } }
+    @media (min-width: 1440px) {
+      #triple .habitacion__imagen {
+        height: 95vh; } }
   #triple .habitacion__contenido {
     font-size: 1rem;
     font-style: oblique;
@@ -278,9 +290,15 @@ body header nav {
     @media (min-width: 768px) {
       #desayuno div .servicios__imagen {
         height: 20vh; } }
-    @media (min-width: 2560px) {
+    @media (min-width: 1024px) {
       #desayuno div .servicios__imagen {
         height: 25vh; } }
+    @media (min-width: 1440px) {
+      #desayuno div .servicios__imagen {
+        height: 27vh; } }
+    @media (min-width: 2560px) {
+      #desayuno div .servicios__imagen {
+        height: 29vh; } }
   #desayuno div p {
     width: 95%;
     font-size: 0.8rem; }
@@ -290,6 +308,9 @@ body header nav {
     @media (min-width: 768px) {
       #desayuno div p {
         font-size: 1.2rem; } }
+    @media (min-width: 1024px) {
+      #desayuno div p {
+        font-size: 1.5rem; } }
     @media (min-width: 1400px) {
       #desayuno div p {
         font-size: 1.8rem; } }
@@ -313,10 +334,16 @@ body header nav {
         height: 18vh; } }
     @media (min-width: 768px) {
       #restaurant div .servicios__imagen {
-        height: 20vh; } }
-    @media (min-width: 2560px) {
+        height: 22vh; } }
+    @media (min-width: 1024px) {
       #restaurant div .servicios__imagen {
         height: 25vh; } }
+    @media (min-width: 1440px) {
+      #restaurant div .servicios__imagen {
+        height: 27vh; } }
+    @media (min-width: 2560px) {
+      #restaurant div .servicios__imagen {
+        height: 29vh; } }
   #restaurant div p {
     width: 95%;
     font-size: 0.8rem; }
@@ -326,6 +353,9 @@ body header nav {
     @media (min-width: 768px) {
       #restaurant div p {
         font-size: 1.2rem; } }
+    @media (min-width: 1024px) {
+      #restaurant div p {
+        font-size: 1.5rem; } }
     @media (min-width: 1400px) {
       #restaurant div p {
         font-size: 1.8rem; } }
@@ -349,10 +379,16 @@ body header nav {
         height: 18vh; } }
     @media (min-width: 768px) {
       #pileta div .servicios__imagen {
-        height: 20vh; } }
-    @media (min-width: 2560px) {
+        height: 22vh; } }
+    @media (min-width: 1024px) {
       #pileta div .servicios__imagen {
         height: 25vh; } }
+    @media (min-width: 1440px) {
+      #pileta div .servicios__imagen {
+        height: 27vh; } }
+    @media (min-width: 2560px) {
+      #pileta div .servicios__imagen {
+        height: 29vh; } }
   #pileta div p {
     width: 95%;
     font-size: 0.8rem; }
@@ -362,6 +398,9 @@ body header nav {
     @media (min-width: 768px) {
       #pileta div p {
         font-size: 1.2rem; } }
+    @media (min-width: 1024px) {
+      #pileta div p {
+        font-size: 1.5rem; } }
     @media (min-width: 1400px) {
       #pileta div p {
         font-size: 1.8rem; } }
@@ -385,10 +424,16 @@ body header nav {
         height: 18vh; } }
     @media (min-width: 768px) {
       #estacionamiento div .servicios__imagen {
-        height: 20vh; } }
-    @media (min-width: 2560px) {
+        height: 22vh; } }
+    @media (min-width: 1024px) {
       #estacionamiento div .servicios__imagen {
         height: 25vh; } }
+    @media (min-width: 1440px) {
+      #estacionamiento div .servicios__imagen {
+        height: 27vh; } }
+    @media (min-width: 2560px) {
+      #estacionamiento div .servicios__imagen {
+        height: 29vh; } }
   #estacionamiento div p {
     width: 95%;
     font-size: 0.8rem; }
@@ -398,6 +443,9 @@ body header nav {
     @media (min-width: 768px) {
       #estacionamiento div p {
         font-size: 1.2rem; } }
+    @media (min-width: 1024px) {
+      #estacionamiento div p {
+        font-size: 1.5rem; } }
     @media (min-width: 1400px) {
       #estacionamiento div p {
         font-size: 1.8rem; } }
@@ -421,10 +469,16 @@ body header nav {
         height: 18vh; } }
     @media (min-width: 768px) {
       #gimnasio div .servicios__imagen {
-        height: 20vh; } }
-    @media (min-width: 2560px) {
+        height: 22vh; } }
+    @media (min-width: 1024px) {
       #gimnasio div .servicios__imagen {
         height: 25vh; } }
+    @media (min-width: 1440px) {
+      #gimnasio div .servicios__imagen {
+        height: 27vh; } }
+    @media (min-width: 2560px) {
+      #gimnasio div .servicios__imagen {
+        height: 29vh; } }
   #gimnasio div p {
     width: 95%;
     font-size: 0.8rem; }
@@ -434,6 +488,9 @@ body header nav {
     @media (min-width: 768px) {
       #gimnasio div p {
         font-size: 1.2rem; } }
+    @media (min-width: 1024px) {
+      #gimnasio div p {
+        font-size: 1.5rem; } }
     @media (min-width: 1400px) {
       #gimnasio div p {
         font-size: 1.8rem; } }
@@ -459,16 +516,20 @@ body header nav {
   margin: 2%;
   border-radius: 3%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white; }
+  color: white;
+  margin-bottom: 3%; }
   .formulario .contenidoForm {
     width: 100%;
     background: #003554;
     padding: 1%;
     border-radius: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 0.8rem; }
+    @media (min-width: 768px) {
+      .formulario .contenidoForm {
+        margin-bottom: 2%; } }
     @media (min-width: 1024px) {
       .formulario .contenidoForm {
         font-size: 1.3rem; } }
@@ -480,7 +541,8 @@ body header nav {
         font-size: 3rem; } }
   .formulario p {
     height: 5vh;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    margin-bottom: 3%; }
     @media (min-width: 537px) {
       .formulario p {
         font-size: 1rem; } }
@@ -502,22 +564,25 @@ body header nav {
   .formulario #estiloTextarea {
     background-color: white;
     color: #003554;
-    width: 90%;
+    width: 100%;
     border-radius: 5%;
-    max-width: 80vw;
+    max-width: 100%;
     max-height: 15vh;
     font-size: 0.8rem; }
     @media (min-width: 537px) {
       .formulario #estiloTextarea {
         max-height: 20vh; } }
+    @media (min-width: 768px) {
+      .formulario #estiloTextarea {
+        max-height: 15vh; } }
     @media (min-width: 1024px) {
       .formulario #estiloTextarea {
         font-size: 1rem; } }
     @media (min-width: 2560px) {
       .formulario #estiloTextarea {
-        font-size: 2.5rem;
-        max-height: 40vh;
-        height: 30vh; } }
+        font-size: 3rem;
+        height: 20vh;
+        max-height: 20vh; } }
   .formulario .botonForm {
     width: 20%;
     background: #1f53c5;
@@ -525,7 +590,7 @@ body header nav {
     padding: 1%;
     color: white;
     margin: 1% 0%;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     cursor: pointer; }
     @media (min-width: 768px) {
       .formulario .botonForm {
@@ -552,7 +617,7 @@ body header nav {
       font-size: 1rem; } }
   @media (min-width: 1024px) {
     .textoForm {
-      font-size: 1.5rem; } }
+      font-size: 1.3rem; } }
   @media (min-width: 1400px) {
     .textoForm {
       font-size: 1.8rem; } }

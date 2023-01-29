@@ -18,7 +18,6 @@ a:visited, a:active {
 }
 body{
     width: 100vw;
-    /* height: 185vh; */
     overflow-x: hidden;
     display: grid;
     grid-template-columns: 1fr;
@@ -27,12 +26,7 @@ body{
     "header"
     "mainpresent"
     "footer";
-    @media (min-width: 537px){
-        /* height: 210vh; */
-    }
-    @media (min-width: 2560px){
-        /* height: 250vh; */
-    } 
+    
     header{
         width: 100vw;
         height: 10vh;

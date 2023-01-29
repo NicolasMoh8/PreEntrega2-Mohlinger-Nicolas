@@ -21,12 +21,12 @@ body{
     /* height: 185vh; */
     overflow-x: hidden;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: 0.05fr 1fr 0.05fr;
     grid-template-areas: 
-    "header header"
-    "mainpresent mainpresent"
-    "footer footer";
+    "header"
+    "mainpresent"
+    "footer";
     @media (min-width: 537px){
         /* height: 210vh; */
     }
@@ -47,13 +47,19 @@ body{
     }
     main{
         width: 100vw;
-        height: 168vh;
+        height: 190vh;
         background-color: $background-main;   
         @media (min-width: 537px){
-            height: 188vh ;
+            height: 205vh ;
+        } 
+        @media (min-width: 768px){
+            height: 210vh ;
+        } 
+        @media (min-width: 1024px){
+            height: 230vh ;
         } 
         @media (min-width: 2560px){
-            height: 220vh;
+            height: 240vh;
         }    
        
         h1{

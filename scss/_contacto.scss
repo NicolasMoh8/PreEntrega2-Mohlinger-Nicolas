@@ -143,3 +143,10 @@ section div .datos{
         font-size: $font-size*3;
     }
 }
+img{       
+    width: 30vw;
+    height: 20vh;
+    @media (min-width: 1024px){
+        height: 35vh;
+    }
+}

@@ -4,51 +4,82 @@ body header nav {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  font-size: 0.5rem; }
+  font-size: 0.4rem; }
   @media (min-width: 537px) {
     body header nav {
       height: 60%;
-      font-size: 0.8rem; } }
+      font-size: 0.7rem; } }
   @media (min-width: 768px) {
     body header nav {
       font-size: 1rem; } }
   @media (min-width: 1024px) {
     body header nav {
-      font-size: 1.5rem; } }
-  @media (min-width: 1400px) {
+      font-size: 1.4rem; } }
+  @media (min-width: 1440px) {
     body header nav {
-      font-size: 2rem; } }
+      font-size: 1.8rem; } }
   @media (min-width: 2560px) {
     body header nav {
-      font-size: 4rem; } }
+      font-size: 3.5rem; } }
   body header nav .logo img {
     width: 9vw;
-    height: 6vh; }
+    height: 6vh;
+    border-radius: 50%; }
     @media (min-width: 537px) {
       body header nav .logo img {
-        height: 10vh; } }
+        width: 12vw;
+        height: 13vh;
+        border-radius: 50%;
+        margin-top: -0.5rem; } }
+    @media (min-width: 630px) {
+      body header nav .logo img {
+        height: 16vh;
+        margin-top: -1rem; } }
     @media (min-width: 768px) {
       body header nav .logo img {
-        width: 7vw; } }
+        height: 18vh;
+        margin-top: -1.2rem; } }
+    @media (min-width: 870px) {
+      body header nav .logo img {
+        height: 16vh;
+        width: 10vw;
+        margin-top: -1rem; } }
     @media (min-width: 1024px) {
       body header nav .logo img {
-        height: 12vh;
-        width: 9vw; } }
-    @media (min-width: 1400px) {
+        height: 15vh; } }
+    @media (min-width: 1440px) {
       body header nav .logo img {
-        width: 7vw; } }
+        height: 15vh;
+        width: 8vw;
+        margin-top: -1rem; } }
     @media (min-width: 2560px) {
       body header nav .logo img {
-        width: 8vw; } }
+        margin-top: -2rem; } }
   body header nav div {
     height: 1vh; }
     body header nav div ul, body header nav div ol {
       list-style: none; }
     body header nav div ul li a {
-      background-color: black;
+      background-color: #495057;
       color: whitesmoke;
+      align-items: center;
       padding: 0.5rem;
-      display: block; }
+      display: block;
+      margin: 0.03rem; }
+      @media (min-width: 537px) {
+        body header nav div ul li a {
+          margin: 0.2rem; } }
+      @media (min-width: 1024px) {
+        body header nav div ul li a {
+          margin: 0.5rem; } }
+      @media (min-width: 1440px) {
+        body header nav div ul li a {
+          margin: 0.8rem; } }
+      @media (min-width: 2560px) {
+        body header nav div ul li a {
+          margin: 1rem; } }
+    body header nav div ul li i {
+      margin: 0 5px; }
     body header nav div ul li ul {
       display: none;
       position: absolute;
@@ -61,9 +92,11 @@ body header nav {
       background-color: white; }
   body header nav .nav > li {
     float: left; }
-  body header nav .submenu:hover ul {
-    display: block;
-    position: absolute; }
+  body header nav .submenu {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+    body header nav .submenu:hover ul {
+      display: block;
+      position: absolute; }
 
 #mainPresentacion {
   width: 100%;
@@ -79,7 +112,7 @@ body header nav {
     grid-template-rows: 0.5fr 1.5fr;
     grid-template-areas: "presimg" "prescont";
     justify-items: center; }
-    @media (min-width: 1400px) {
+    @media (min-width: 1440px) {
       #mainPresentacion .presentacion {
         grid-template-rows: 1fr 1fr; } }
     #mainPresentacion .presentacion .presentacion__imagen {
@@ -100,7 +133,7 @@ body header nav {
           #mainPresentacion .presentacion .presentacion__imagen #presentacionImg {
             width: 95vw;
             height: 85vh; } }
-        @media (min-width: 1400px) {
+        @media (min-width: 1440px) {
           #mainPresentacion .presentacion .presentacion__imagen #presentacionImg {
             height: 95vh;
             margin-top: 2rem; } }
@@ -120,25 +153,30 @@ body header nav {
       font-family: Arial, Helvetica, sans-serif; }
       @media (min-width: 537px) {
         #mainPresentacion .presentacion .presentacion__contenido {
-          font-size: 1.3rem;
-          height: 98%; } }
+          font-size: 1rem;
+          height: 80%;
+          margin: 60px;
+          padding: 20px; } }
+      @media (min-width: 630px) {
+        #mainPresentacion .presentacion .presentacion__contenido {
+          height: 70%; } }
       @media (min-width: 768px) {
         #mainPresentacion .presentacion .presentacion__contenido {
-          font-size: 1.5rem;
-          height: 85%; } }
+          height: 60%; } }
       @media (min-width: 1024px) {
         #mainPresentacion .presentacion .presentacion__contenido {
-          font-size: 2rem;
-          margin-top: 2rem;
-          height: 85%; } }
-      @media (min-width: 1400px) {
+          font-size: 1.5rem;
+          height: 55%;
+          margin: 80px; } }
+      @media (min-width: 1440px) {
         #mainPresentacion .presentacion .presentacion__contenido {
-          margin-top: 5rem;
-          font-size: 2.3rem;
-          height: 75%; } }
+          font-size: 1.8rem;
+          height: 70%; } }
       @media (min-width: 2560px) {
         #mainPresentacion .presentacion .presentacion__contenido {
-          font-size: 4rem; } }
+          font-size: 3rem;
+          height: 55%;
+          padding: 50px; } }
 
 #titulo_doble {
   width: 100%;
@@ -184,19 +222,20 @@ body header nav {
     font-size: 1rem;
     font-style: oblique;
     font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
     padding: 2%; }
     @media (min-width: 537px) {
       #doble .habitacion__contenido {
-        font-size: 1.5rem; } }
+        font-size: 1rem; } }
     @media (min-width: 1024px) {
+      #doble .habitacion__contenido {
+        font-size: 1.5rem; } }
+    @media (min-width: 1440px) {
       #doble .habitacion__contenido {
         font-size: 1.8rem; } }
-    @media (min-width: 1024px) {
-      #doble .habitacion__contenido {
-        font-size: 2.3rem; } }
     @media (min-width: 2560px) {
       #doble .habitacion__contenido {
-        font-size: 5rem; } }
+        font-size: 3rem; } }
 
 #titulo_triple {
   width: 100%;
@@ -242,19 +281,20 @@ body header nav {
     font-size: 1rem;
     font-style: oblique;
     font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
     padding: 2%; }
     @media (min-width: 537px) {
       #triple .habitacion__contenido {
-        font-size: 1.5rem; } }
+        font-size: 1rem; } }
     @media (min-width: 1024px) {
+      #triple .habitacion__contenido {
+        font-size: 1.5rem; } }
+    @media (min-width: 1440px) {
       #triple .habitacion__contenido {
         font-size: 1.8rem; } }
-    @media (min-width: 1024px) {
-      #triple .habitacion__contenido {
-        font-size: 2.3rem; } }
     @media (min-width: 2560px) {
       #triple .habitacion__contenido {
-        font-size: 5rem; } }
+        font-size: 3rem; } }
 
 #titulo_servicios {
   width: 100%;
@@ -293,15 +333,13 @@ body header nav {
     @media (min-width: 1024px) {
       #desayuno div .servicios__imagen {
         height: 25vh; } }
-    @media (min-width: 1440px) {
-      #desayuno div .servicios__imagen {
-        height: 27vh; } }
     @media (min-width: 2560px) {
       #desayuno div .servicios__imagen {
         height: 29vh; } }
   #desayuno div p {
     width: 95%;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    color: whitesmoke; }
     @media (min-width: 537px) {
       #desayuno div p {
         font-size: 1rem; } }
@@ -311,7 +349,7 @@ body header nav {
     @media (min-width: 1024px) {
       #desayuno div p {
         font-size: 1.5rem; } }
-    @media (min-width: 1400px) {
+    @media (min-width: 1440px) {
       #desayuno div p {
         font-size: 1.8rem; } }
     @media (min-width: 2560px) {
@@ -338,15 +376,13 @@ body header nav {
     @media (min-width: 1024px) {
       #restaurant div .servicios__imagen {
         height: 25vh; } }
-    @media (min-width: 1440px) {
-      #restaurant div .servicios__imagen {
-        height: 27vh; } }
     @media (min-width: 2560px) {
       #restaurant div .servicios__imagen {
         height: 29vh; } }
   #restaurant div p {
     width: 95%;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    color: whitesmoke; }
     @media (min-width: 537px) {
       #restaurant div p {
         font-size: 1rem; } }
@@ -356,7 +392,7 @@ body header nav {
     @media (min-width: 1024px) {
       #restaurant div p {
         font-size: 1.5rem; } }
-    @media (min-width: 1400px) {
+    @media (min-width: 1440px) {
       #restaurant div p {
         font-size: 1.8rem; } }
     @media (min-width: 2560px) {
@@ -383,15 +419,13 @@ body header nav {
     @media (min-width: 1024px) {
       #pileta div .servicios__imagen {
         height: 25vh; } }
-    @media (min-width: 1440px) {
-      #pileta div .servicios__imagen {
-        height: 27vh; } }
     @media (min-width: 2560px) {
       #pileta div .servicios__imagen {
         height: 29vh; } }
   #pileta div p {
     width: 95%;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    color: whitesmoke; }
     @media (min-width: 537px) {
       #pileta div p {
         font-size: 1rem; } }
@@ -401,7 +435,7 @@ body header nav {
     @media (min-width: 1024px) {
       #pileta div p {
         font-size: 1.5rem; } }
-    @media (min-width: 1400px) {
+    @media (min-width: 1440px) {
       #pileta div p {
         font-size: 1.8rem; } }
     @media (min-width: 2560px) {
@@ -428,15 +462,13 @@ body header nav {
     @media (min-width: 1024px) {
       #estacionamiento div .servicios__imagen {
         height: 25vh; } }
-    @media (min-width: 1440px) {
-      #estacionamiento div .servicios__imagen {
-        height: 27vh; } }
     @media (min-width: 2560px) {
       #estacionamiento div .servicios__imagen {
         height: 29vh; } }
   #estacionamiento div p {
     width: 95%;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    color: whitesmoke; }
     @media (min-width: 537px) {
       #estacionamiento div p {
         font-size: 1rem; } }
@@ -446,7 +478,7 @@ body header nav {
     @media (min-width: 1024px) {
       #estacionamiento div p {
         font-size: 1.5rem; } }
-    @media (min-width: 1400px) {
+    @media (min-width: 1440px) {
       #estacionamiento div p {
         font-size: 1.8rem; } }
     @media (min-width: 2560px) {
@@ -473,15 +505,13 @@ body header nav {
     @media (min-width: 1024px) {
       #gimnasio div .servicios__imagen {
         height: 25vh; } }
-    @media (min-width: 1440px) {
-      #gimnasio div .servicios__imagen {
-        height: 27vh; } }
     @media (min-width: 2560px) {
       #gimnasio div .servicios__imagen {
         height: 29vh; } }
   #gimnasio div p {
     width: 95%;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    color: whitesmoke; }
     @media (min-width: 537px) {
       #gimnasio div p {
         font-size: 1rem; } }
@@ -491,7 +521,7 @@ body header nav {
     @media (min-width: 1024px) {
       #gimnasio div p {
         font-size: 1.5rem; } }
-    @media (min-width: 1400px) {
+    @media (min-width: 1440px) {
       #gimnasio div p {
         font-size: 1.8rem; } }
     @media (min-width: 2560px) {
@@ -511,7 +541,7 @@ body header nav {
 
 .formulario {
   width: 95%;
-  background: #003554;
+  background: #adb5bd;
   padding: 30px;
   margin: 2%;
   border-radius: 3%;
@@ -523,7 +553,7 @@ body header nav {
       padding: 15px; } }
   .formulario .contenidoForm {
     width: 100%;
-    background: #003554;
+    background: #e9ecef;
     padding: 1%;
     border-radius: 5%;
     margin-bottom: 5%;
@@ -569,7 +599,6 @@ body header nav {
         text-decoration: underline; }
   .formulario #estiloTextarea {
     background-color: white;
-    color: #003554;
     width: 100%;
     border-radius: 5%;
     max-width: 100%;
@@ -588,13 +617,16 @@ body header nav {
         max-height: 20vh; } }
   .formulario .botonForm {
     width: 20%;
-    background: #1f53c5;
+    background: #212529;
     border: none;
     padding: 1%;
     color: white;
     margin: 1% 0%;
     font-size: 0.7rem;
     cursor: pointer; }
+    @media (min-width: 1024px) {
+      .formulario .botonForm {
+        font-size: 1.2rem; } }
     @media (min-width: 1440px) {
       .formulario .botonForm {
         font-size: 1.5rem; } }
@@ -608,14 +640,15 @@ body header nav {
   padding: 5px;
   width: 95%;
   font-size: 0.8rem;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke; }
   @media (min-width: 870px) {
     .textoForm {
       font-size: 1rem; } }
   @media (min-width: 1024px) {
     .textoForm {
       font-size: 1.3rem; } }
-  @media (min-width: 1400px) {
+  @media (min-width: 1440px) {
     .textoForm {
       font-size: 1.5rem; } }
   @media (min-width: 2560px) {
@@ -658,7 +691,7 @@ a:visited, a:active {
   list-style-type: none;
   text-decoration: none;
   color: whitesmoke;
-  font-family: 'Nerko One', cursive; }
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
 body {
   width: 100vw;
@@ -672,7 +705,7 @@ body {
     height: 10vh;
     grid-area: header;
     top: 0;
-    background-color: #003554;
+    background-color: white;
     font-weight: bold; }
     @media (min-width: 537px) {
       body header {
@@ -680,7 +713,7 @@ body {
   body main {
     width: 100vw;
     height: 190vh;
-    background-color: #bfdbf7; }
+    background-color: #343a40; }
     @media (min-width: 537px) {
       body main {
         height: 205vh; } }
@@ -699,7 +732,7 @@ body {
       height: 100%;
       color: white;
       text-align: center;
-      background-image: linear-gradient(20deg, #051923, #056290, #069feb);
+      background-color: #adb5bd;
       padding: 2%;
       font-size: 1.3rem; }
       @media (min-width: 537px) {
@@ -708,7 +741,7 @@ body {
       @media (min-width: 1024px) {
         body main h1 {
           font-size: 2.5rem; } }
-      @media (min-width: 1400px) {
+      @media (min-width: 1440px) {
         body main h1 {
           font-size: 3rem; } }
       @media (min-width: 2560px) {
@@ -727,14 +760,14 @@ body {
       @media (min-width: 1024px) {
         body main h2 {
           font-size: 1.8rem; } }
-      @media (min-width: 1400px) {
+      @media (min-width: 1440px) {
         body main h2 {
           font-size: 2.5rem; } }
       @media (min-width: 2560px) {
         body main h2 {
           font-size: 5rem; } }
     body main h3 {
-      background-color: #1f7a8c;
+      background-color: #212529;
       color: white;
       font-size: 0.8rem; }
       @media (min-width: 537px) {
@@ -743,7 +776,7 @@ body {
       @media (min-width: 1024px) {
         body main h3 {
           font-size: 1.4rem; } }
-      @media (min-width: 1400px) {
+      @media (min-width: 1440px) {
         body main h3 {
           font-size: 2rem; } }
       @media (min-width: 2560px) {
@@ -770,7 +803,7 @@ body {
     @media (min-width: 1024px) {
       body footer {
         font-size: 1.5rem; } }
-    @media (min-width: 1400px) {
+    @media (min-width: 1440px) {
       body footer {
         font-size: 1.8rem; } }
     @media (min-width: 2560px) {

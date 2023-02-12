@@ -156,12 +156,12 @@ section div .datos{
 
 
 img{       
-    width: 30vw;
-    height: 20vh;
-    @media (min-width: 537px){
-        height: 25vh;
+    
+    @include medida-imagen(30vw, 20vh); 
+    @media (min-width: 537px){        
+        @include medida-imagen(30vw, 25vh); 
     } 
-    @media (min-width: 1024px){
-        height: 35vh;
+    @media (min-width: 1024px){        
+        @include medida-imagen(30vw, 35vh); 
     }
 }

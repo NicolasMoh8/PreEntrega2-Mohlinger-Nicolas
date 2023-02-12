@@ -32,10 +32,12 @@ body header nav {
         margin-top: -0.5rem; } }
     @media (min-width: 630px) {
       body header nav .logo img {
+        width: 15vw;
         height: 16vh;
         margin-top: -1rem; } }
     @media (min-width: 768px) {
       body header nav .logo img {
+        width: 15vw;
         height: 20vh;
         margin-top: -1.2rem; } }
     @media (min-width: 870px) {
@@ -43,8 +45,8 @@ body header nav {
         margin-top: -1.5rem; } }
     @media (min-width: 1440px) {
       body header nav .logo img {
-        height: 22vh;
         width: 18vw;
+        height: 22vh;
         margin-top: -2.5rem; } }
     @media (min-width: 2560px) {
       body header nav .logo img {
@@ -132,8 +134,9 @@ body header nav {
             height: 85vh; } }
         @media (min-width: 1440px) {
           #mainPresentacion .presentacion .presentacion__imagen #presentacionImg {
-            height: 95vh;
-            margin-top: 2rem; } }
+            margin-top: 2rem;
+            width: 95vw;
+            height: 95vh; } }
     #mainPresentacion .presentacion .presentacion__contenido {
       grid-area: prescont;
       margin: 1%;
@@ -208,12 +211,15 @@ body header nav {
     padding: 2%; }
     @media (min-width: 537px) {
       #doble .habitacion__imagen {
+        width: 85vw;
         height: 70vh; } }
     @media (min-width: 768px) {
       #doble .habitacion__imagen {
+        width: 85vw;
         height: 90vh; } }
     @media (min-width: 1440px) {
       #doble .habitacion__imagen {
+        width: 85vw;
         height: 95vh; } }
   #doble .habitacion__contenido {
     font-size: 1rem;
@@ -267,12 +273,15 @@ body header nav {
     padding: 2%; }
     @media (min-width: 537px) {
       #triple .habitacion__imagen {
+        width: 85vw;
         height: 70vh; } }
     @media (min-width: 768px) {
       #triple .habitacion__imagen {
+        width: 85vw;
         height: 90vh; } }
     @media (min-width: 1440px) {
       #triple .habitacion__imagen {
+        width: 85vw;
         height: 95vh; } }
   #triple .habitacion__contenido {
     font-size: 1rem;
@@ -323,15 +332,19 @@ body header nav {
     margin-right: 1rem; }
     @media (min-width: 537px) {
       #desayuno div .servicios__imagen {
+        width: 30vw;
         height: 18vh; } }
     @media (min-width: 768px) {
       #desayuno div .servicios__imagen {
+        width: 30vw;
         height: 20vh; } }
     @media (min-width: 1024px) {
       #desayuno div .servicios__imagen {
+        width: 30vw;
         height: 25vh; } }
     @media (min-width: 2560px) {
       #desayuno div .servicios__imagen {
+        width: 30vw;
         height: 29vh; } }
   #desayuno div p {
     width: 95%;
@@ -366,15 +379,19 @@ body header nav {
     margin-right: 1rem; }
     @media (min-width: 537px) {
       #restaurant div .servicios__imagen {
+        width: 30vw;
         height: 18vh; } }
     @media (min-width: 768px) {
       #restaurant div .servicios__imagen {
+        width: 30vw;
         height: 22vh; } }
     @media (min-width: 1024px) {
       #restaurant div .servicios__imagen {
+        width: 30vw;
         height: 25vh; } }
     @media (min-width: 2560px) {
       #restaurant div .servicios__imagen {
+        width: 30vw;
         height: 29vh; } }
   #restaurant div p {
     width: 95%;
@@ -409,15 +426,19 @@ body header nav {
     margin-right: 1rem; }
     @media (min-width: 537px) {
       #pileta div .servicios__imagen {
+        width: 30vw;
         height: 18vh; } }
     @media (min-width: 768px) {
       #pileta div .servicios__imagen {
+        width: 30vw;
         height: 22vh; } }
     @media (min-width: 1024px) {
       #pileta div .servicios__imagen {
+        width: 30vw;
         height: 25vh; } }
     @media (min-width: 2560px) {
       #pileta div .servicios__imagen {
+        width: 30vw;
         height: 29vh; } }
   #pileta div p {
     width: 95%;
@@ -452,15 +473,19 @@ body header nav {
     margin-right: 1rem; }
     @media (min-width: 537px) {
       #estacionamiento div .servicios__imagen {
+        width: 30vw;
         height: 18vh; } }
     @media (min-width: 768px) {
       #estacionamiento div .servicios__imagen {
+        width: 30vw;
         height: 22vh; } }
     @media (min-width: 1024px) {
       #estacionamiento div .servicios__imagen {
+        width: 30vw;
         height: 25vh; } }
     @media (min-width: 2560px) {
       #estacionamiento div .servicios__imagen {
+        width: 30vw;
         height: 29vh; } }
   #estacionamiento div p {
     width: 95%;
@@ -495,15 +520,19 @@ body header nav {
     margin-right: 1rem; }
     @media (min-width: 537px) {
       #gimnasio div .servicios__imagen {
+        width: 30vw;
         height: 18vh; } }
     @media (min-width: 768px) {
       #gimnasio div .servicios__imagen {
+        width: 30vw;
         height: 22vh; } }
     @media (min-width: 1024px) {
       #gimnasio div .servicios__imagen {
+        width: 30vw;
         height: 25vh; } }
     @media (min-width: 2560px) {
       #gimnasio div .servicios__imagen {
+        width: 30vw;
         height: 29vh; } }
   #gimnasio div p {
     width: 95%;
@@ -673,9 +702,11 @@ img {
   height: 20vh; }
   @media (min-width: 537px) {
     img {
+      width: 30vw;
       height: 25vh; } }
   @media (min-width: 1024px) {
     img {
+      width: 30vw;
       height: 35vh; } }
 
 * {

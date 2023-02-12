@@ -23,21 +23,20 @@
     width: 98%;
     height: auto;
     div{
-        .servicios__imagen {
-            width: 30vw;
-            height: 12vh;
+        .servicios__imagen {            
+            @include medida-imagen(30vw, 12vh);
             margin-right: 1rem;
-            @media (min-width: 537px){
-                height: 18vh;
+            @media (min-width: 537px){                
+                @include medida-imagen(30vw, 18vh);
             }
-            @media (min-width: 768px){
-                height: 20vh;
+            @media (min-width: 768px){                
+                @include medida-imagen(30vw, 20vh);
             }
-            @media (min-width: 1024px){
-                height: 25vh;
+            @media (min-width: 1024px){                
+                @include medida-imagen(30vw, 25vh);
             }
-            @media (min-width: 2560px){
-                height: 29vh;
+            @media (min-width: 2560px){                
+                @include medida-imagen(30vw, 29vh);
             }
         }
         
@@ -74,21 +73,20 @@
     width: 98%;
     height: auto;
     div{
-        .servicios__imagen {
-            width: 30vw;
-            height: 12vh;
+        .servicios__imagen {            
+            @include medida-imagen(30vw, 12vh);
             margin-right: 1rem;
-            @media (min-width: 537px){
-                height: 18vh;
+            @media (min-width: 537px){                
+                @include medida-imagen(30vw, 18vh);
             }
-            @media (min-width: 768px){
-                height: 22vh;
+            @media (min-width: 768px){                
+                @include medida-imagen(30vw, 22vh);
             }
-            @media (min-width: 1024px){
-                height: 25vh;
+            @media (min-width: 1024px){                
+                @include medida-imagen(30vw, 25vh);
             }
-            @media (min-width: 2560px){
-                height: 29vh;
+            @media (min-width: 2560px){                
+                @include medida-imagen(30vw, 29vh);
             }
             
         }
@@ -125,21 +123,20 @@
     width: 98%;
     height: auto;
     div{
-        .servicios__imagen {
-            width: 30vw;
-            height: 12vh;
+        .servicios__imagen {            
+            @include medida-imagen(30vw, 12vh);
             margin-right: 1rem;
-            @media (min-width: 537px){
-                height: 18vh;
+            @media (min-width: 537px){                
+                @include medida-imagen(30vw, 18vh);
             }
-            @media (min-width: 768px){
-                height: 22vh;
+            @media (min-width: 768px){                
+                @include medida-imagen(30vw, 22vh);
             }
-            @media (min-width: 1024px){
-                height: 25vh;
+            @media (min-width: 1024px){                
+                @include medida-imagen(30vw, 25vh);
             }
-            @media (min-width: 2560px){
-                height: 29vh;
+            @media (min-width: 2560px){                
+                @include medida-imagen(30vw, 29vh);
             }
             
         }     
@@ -176,21 +173,20 @@
     width: 98%;
     height: auto;
     div{
-        .servicios__imagen {
-            width: 30vw;
-            height: 12vh;
+        .servicios__imagen {            
+            @include medida-imagen(30vw, 12vh);
             margin-right: 1rem;
-            @media (min-width: 537px){
-                height: 18vh;
+            @media (min-width: 537px){                
+                @include medida-imagen(30vw, 18vh);
             }
-            @media (min-width: 768px){
-                height: 22vh;
+            @media (min-width: 768px){                
+                @include medida-imagen(30vw, 22vh);
             }
-            @media (min-width: 1024px){
-                height: 25vh;
+            @media (min-width: 1024px){                
+                @include medida-imagen(30vw, 25vh);
             }
-            @media (min-width: 2560px){
-                height: 29vh;
+            @media (min-width: 2560px){                
+                @include medida-imagen(30vw, 29vh);
             }
         }   
     }
@@ -226,21 +222,20 @@
     width: 98%;
     height: auto;
     div{
-        .servicios__imagen {
-            width: 30vw;
-            height: 12vh;
+        .servicios__imagen {            
+            @include medida-imagen(30vw, 12vh);
             margin-right: 1rem;
-            @media (min-width: 537px){
-                height: 18vh;
+            @media (min-width: 537px){                
+                @include medida-imagen(30vw, 18vh);
             }
-            @media (min-width: 768px){
-                height: 22vh;
+            @media (min-width: 768px){                
+                @include medida-imagen(30vw, 22vh);
             }
-            @media (min-width: 1024px){
-                height: 25vh;
+            @media (min-width: 1024px){                
+                @include medida-imagen(30vw, 25vh);
             }
-            @media (min-width: 2560px){
-                height: 29vh;
+            @media (min-width: 2560px){                
+                @include medida-imagen(30vw, 29vh);
             }
         }    
     }

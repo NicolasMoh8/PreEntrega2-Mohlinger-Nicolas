@@ -25,19 +25,18 @@
     width: 90%;
 
     .habitacion__imagen{
-        width: 85vw;
-        height: 50vh;
+        @include medida-imagen(85vw, 50vh);
         display: block;
         margin: auto;
         padding: 2%;
         @media (min-width: 537px){
-            height: 70vh;
+            @include medida-imagen(85vw, 70vh);
         }
         @media (min-width: 768px){
-            height: 90vh;
+            @include medida-imagen(85vw, 90vh);
         }
         @media (min-width: 1440px){
-            height: 95vh;
+            @include medida-imagen(85vw, 95vh);
         }
     }
     .habitacion__contenido{

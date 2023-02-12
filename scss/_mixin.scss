@@ -1,6 +1,6 @@
 @mixin reseteo-lista {
     list-style-type: none;
     text-decoration: none;
-    color: $letras-boton;
+    color: map-get($coloresProyecto,"whitesmoke");
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

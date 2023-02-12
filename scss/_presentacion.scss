@@ -49,9 +49,9 @@
             grid-area: prescont;
             margin: 1%;
             border: 1px;
-            box-shadow: 10px 5px 3px black;
+            box-shadow: 10px 5px 3px map-get($coloresProyecto,"border-presentacion");
             border-radius: 10px;
-            background-color: white;
+            background-color: map-get($coloresProyecto,"blanco");
             padding: 5px;
             height: 100%;
             width: 95%; 

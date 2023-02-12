@@ -18,7 +18,7 @@
 #desayuno{
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
-    border: 0.2rem solid $border;
+    border: 0.2rem solid map-get($coloresProyecto,"border-servicios");
     padding: 0.5%;
     width: 98%;
     height: auto;
@@ -47,7 +47,7 @@
         p{
             width: 95%;
             font-size: $font-size*0.8;
-            color: whitesmoke;
+            color: map-get($coloresProyecto,"whitesmoke");
             @media (min-width: 537px){
                 font-size: $font-size;
             }
@@ -69,7 +69,7 @@
 #restaurant{
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
-    border: 0.2rem solid $border;
+    border: 0.2rem solid map-get($coloresProyecto,"border-servicios");
     padding: 0.5%;
     width: 98%;
     height: auto;
@@ -98,7 +98,7 @@
         p{
             width: 95%;
             font-size: $font-size*0.8; 
-            color: whitesmoke;
+            color: map-get($coloresProyecto,"whitesmoke");
             @media (min-width: 537px){
                 font-size: $font-size;
             }
@@ -120,7 +120,7 @@
 #pileta{
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
-    border: 0.2rem solid $border;
+    border: 0.2rem solid map-get($coloresProyecto,"border-servicios");
     padding: 0.5%;
     width: 98%;
     height: auto;
@@ -148,7 +148,7 @@
         p{
             width: 95%;
             font-size: $font-size*0.8;
-            color: whitesmoke;
+            color: map-get($coloresProyecto,"whitesmoke");
             @media (min-width: 537px){
                 font-size: $font-size;
             } 
@@ -171,7 +171,7 @@
 #estacionamiento{
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
-    border: 0.2rem solid $border;
+    border: 0.2rem solid map-get($coloresProyecto,"border-servicios");
     padding: 0.5%;
     width: 98%;
     height: auto;
@@ -198,7 +198,7 @@
         p{
             width: 95%;
             font-size: $font-size*0.8;
-            color: whitesmoke;
+            color: map-get($coloresProyecto,"whitesmoke");
             @media (min-width: 537px){
                 font-size: $font-size;
             } 
@@ -221,7 +221,7 @@
 #gimnasio{
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
-    border: 0.2rem solid $border;
+    border: 0.2rem solid map-get($coloresProyecto,"border-servicios");
     padding: 0.5%;
     width: 98%;
     height: auto;
@@ -248,7 +248,7 @@
         p{
             width: 95%;
             font-size: $font-size*0.8;
-            color: whitesmoke;
+            color: map-get($coloresProyecto,"whitesmoke");
             @media (min-width: 537px){
                 font-size: $font-size;
             } 

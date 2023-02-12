@@ -1,3 +1,15 @@
+/* $background-footer: black; */
+/* $letra-footer: white; */
+/* $background-boton: black;
+$letras-boton: whitesmoke; */
+/* $border: black; */
+/* $background-header: #003554; */
+/* $background-main: #bfdbf7; */
+/* $color-h1: white; */
+/* $background-h2: whitesmoke; */
+/* $letra-h2: black; */
+/* $background-h3: #1f7a8c; */
+/* $letra-h3: white; */
 body header nav {
   width: 100%;
   height: 40%;
@@ -22,14 +34,13 @@ body header nav {
     body header nav {
       font-size: 3.5rem; } }
   body header nav .logo img {
-    width: 9vw;
-    height: 6vh;
-    border-radius: 50%; }
+    width: 12vw;
+    height: 8vh;
+    margin-top: -0.3rem; }
     @media (min-width: 537px) {
       body header nav .logo img {
-        width: 12vw;
-        height: 13vh;
-        border-radius: 50%;
+        width: 15vw;
+        height: 14vh;
         margin-top: -0.5rem; } }
     @media (min-width: 630px) {
       body header nav .logo img {
@@ -37,24 +48,19 @@ body header nav {
         margin-top: -1rem; } }
     @media (min-width: 768px) {
       body header nav .logo img {
-        height: 18vh;
+        height: 20vh;
         margin-top: -1.2rem; } }
     @media (min-width: 870px) {
       body header nav .logo img {
-        height: 16vh;
-        width: 10vw;
-        margin-top: -1rem; } }
-    @media (min-width: 1024px) {
-      body header nav .logo img {
-        height: 15vh; } }
+        margin-top: -1.5rem; } }
     @media (min-width: 1440px) {
       body header nav .logo img {
-        height: 15vh;
-        width: 8vw;
-        margin-top: -1rem; } }
+        height: 22vh;
+        width: 18vw;
+        margin-top: -2.5rem; } }
     @media (min-width: 2560px) {
       body header nav .logo img {
-        margin-top: -2rem; } }
+        margin-top: -5rem; } }
   body header nav div {
     height: 1vh; }
     body header nav div ul, body header nav div ol {
@@ -80,6 +86,9 @@ body header nav {
           margin: 1rem; } }
     body header nav div ul li i {
       margin: 0 5px; }
+      @media (min-width: 2560px) {
+        body header nav div ul li i {
+          margin: 0 20px; } }
     body header nav div ul li ul {
       display: none;
       position: absolute;
@@ -542,11 +551,11 @@ body header nav {
 .formulario {
   width: 95%;
   background: #adb5bd;
+  color: white;
   padding: 30px;
   margin: 2%;
   border-radius: 3%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
   margin-bottom: 3%; }
   @media (min-width: 870px) {
     .formulario {

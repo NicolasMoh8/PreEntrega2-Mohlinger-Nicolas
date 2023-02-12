@@ -28,41 +28,33 @@ body{
             
             
             .logo img{
-                width: 9vw;
-                height: 6vh; 
-                border-radius: 50%;  
-                   
+                width: 12vw;
+                height: 8vh; 
+                margin-top: -0.3rem;                   
                  
                 @media (min-width: 537px){ 
-                    width: 12vw;           
-                    height: 13vh;
-                    border-radius: 50%;
+                    width: 15vw;           
+                    height: 14vh;
                     margin-top: -0.5rem;             
                 }
-                @media (min-width: 630px){            
+                @media (min-width: 630px){                               
                     height: 16vh; 
                     margin-top: -1rem;             
                 }
-                @media (min-width: 768px){            
-                    height: 18vh; 
+                @media (min-width: 768px){           
+                    height: 20vh; 
                     margin-top: -1.2rem;            
                 } 
-                @media (min-width: 870px){            
-                    height: 16vh; 
-                    width: 10vw;
-                    margin-top: -1rem;            
-                } 
-        
-                @media (min-width: 1024px){ 
-                    height: 15vh;                            
-                }
+                @media (min-width: 870px){             
+                    margin-top: -1.5rem;            
+                }         
                 @media (min-width: 1440px){
-                    height: 15vh;
-                    width: 8vw;
-                    margin-top: -1rem;                     
+                    height: 22vh;
+                    width: 18vw;
+                    margin-top: -2.5rem;                     
                 } 
                 @media (min-width: 2560px){
-                    margin-top: -2rem;
+                    margin-top: -5rem;
                 } 
             }
             
@@ -76,8 +68,8 @@ body{
                  ul {
                      li{        
                         a{
-                            background-color: #495057; 
-                            color: $letras-boton;
+                            background-color: map-get($coloresProyecto,"background-boton-nav"); 
+                            color: map-get($coloresProyecto,"letras-boton-nav");
                             align-items: center;
                             padding: 0.5rem; 
                             display: block;
@@ -98,6 +90,9 @@ body{
                         }
                         i{
                             margin: 0 5px;
+                            @media (min-width: 2560px){
+                                margin: 0 20px;
+                            }   
                         }
                         ul{
                             display: none;
@@ -113,7 +108,7 @@ body{
                 a{
                     &:hover{
                         color: black;
-                        background-color: white;
+                        background-color: map-get($coloresProyecto,"blanco");
                     }
                 }    
             }   

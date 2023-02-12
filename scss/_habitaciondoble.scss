@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    border: 2px solid $border;
+    border: 2px solid map-get($coloresProyecto,"border-habitacion");
     height: auto;   
     margin: 5%; 
     width: 90%; 
@@ -44,7 +44,7 @@
         font-size: $font-size;
         font-style: oblique;
         font-family: Arial, Helvetica, sans-serif;
-        color: whitesmoke;
+        color: map-get($coloresProyecto,"whitesmoke");
         padding: 2%;
         @media (min-width: 537px){
             font-size: $font-size;

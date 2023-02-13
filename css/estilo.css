@@ -567,7 +567,7 @@ body header nav {
 
 .formulario {
   width: 95%;
-  background: #adb5bd;
+  background: #6c757d;
   color: white;
   padding: 30px;
   margin: 2%;
@@ -760,7 +760,7 @@ body {
       height: 100%;
       color: white;
       text-align: center;
-      background-color: #adb5bd;
+      background-color: #6c757d;
       padding: 2%;
       font-size: 1.3rem; }
       @media (min-width: 537px) {
